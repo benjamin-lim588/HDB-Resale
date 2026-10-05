@@ -1,4 +1,5 @@
 """Central project paths (relative to the repo root, no absolute paths)."""
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,5 +16,7 @@ INCOME_RAW = RAW / "ResidentHouseholdsbyPlanningAreaofResidenceandMonthlyHouseho
 MRT_RAW = RAW / "LTAMRTStationExitGEOJSON.geojson"
 BUS_RAW = RAW / "LTABusStop.geojson"
 
-for _p in (PROCESSED, CACHE, FIGURES, TABLES):
-    _p.mkdir(parents=True, exist_ok=True)
+# Local convenience only: Databricks jobs read/write Unity Catalog, not repo folders.
+if not os.environ.get("DATABRICKS_RUNTIME_VERSION"):
+    for _p in (PROCESSED, CACHE, FIGURES, TABLES):
+        _p.mkdir(parents=True, exist_ok=True)

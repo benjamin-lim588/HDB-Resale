@@ -15,6 +15,19 @@ Run: `python src/run_pipeline.py`, then run the notebooks top to bottom.
 (drop them in `data/raw/` using the filenames in `src/paths.py`; income and accessibility sections activate then).
 `price_per_sqm` is EDA-only (target leakage). Census variables are static 2020 context.
 
+## Databricks
+
+Same code, two runners. `src/run_pipeline.py` holds `clean_stage` / `features_stage` (pandas, unchanged logic).
+- **Local:** `python src/run_pipeline.py` (CSV in, CSV out).
+- **Databricks:** `databricks bundle deploy && databricks bundle run flatfair_pipeline` runs
+  `jobs/01_ingest_raw.py` -> `02_clean.py` -> `03_features.py` on serverless, writing Delta tables to
+  `<catalog>.raw`, `<catalog>.clean`, `<catalog>.features` (default catalog `workspace`; `--var catalog=...` to change).
+- Source files live in the managed volume `<catalog>.raw.landing`. Geocoding is NOT part of the job: the completed
+  OneMap cache is uploaded as an input (`onemap_geocode_cache.csv`); refresh it locally with `src/run_geocoding.py`,
+  then re-upload it and rerun the job.
+  
+  
+  
 ## Frontend — Phase 1 Market Explorer
 
 The vanilla HTML/CSS/JavaScript dashboard reads a separately prepared local export.

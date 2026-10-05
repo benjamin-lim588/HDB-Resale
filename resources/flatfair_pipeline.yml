@@ -1,0 +1,27 @@
+resources:
+  jobs:
+    flatfair_pipeline:
+      name: flatfair-pipeline
+      description: Landing volume -> raw -> clean -> features Delta tables (pandas logic from src/)
+      environments:
+        - environment_key: default
+          spec:
+            environment_version: "3"
+      tasks:
+        - task_key: ingest_raw
+          environment_key: default
+          spark_python_task:
+            python_file: ../jobs/01_ingest_raw.py
+            parameters: ["--catalog", "${var.catalog}"]
+        - task_key: clean
+          depends_on: [{task_key: ingest_raw}]
+          environment_key: default
+          spark_python_task:
+            python_file: ../jobs/02_clean.py
+            parameters: ["--catalog", "${var.catalog}"]
+        - task_key: features
+          depends_on: [{task_key: clean}]
+          environment_key: default
+          spark_python_task:
+            python_file: ../jobs/03_features.py
+            parameters: ["--catalog", "${var.catalog}"]
