@@ -118,12 +118,17 @@ def accessibility(props: pd.DataFrame, poi: pd.DataFrame, name_col, prefix, radi
 
 def build_accessibility(props: pd.DataFrame):
     """Returns None when transit files are absent so callers can skip gracefully."""
+    mrt = load_mrt_stations() if MRT_RAW.exists() else None
+    bus = load_bus_stops() if BUS_RAW.exists() else None
+    return accessibility_from_poi(props, mrt, bus)
+
+
+def accessibility_from_poi(props: pd.DataFrame, mrt=None, bus=None):
+    """Same as build_accessibility but takes already-loaded POI frames (e.g. read from Delta)."""
     parts = []
-    if MRT_RAW.exists():
-        mrt = load_mrt_stations()
+    if mrt is not None:
         parts.append(accessibility(props, mrt, "station_name", "mrt", (500, 1000)))
-    if BUS_RAW.exists():
-        bus = load_bus_stops()
+    if bus is not None:
         parts.append(accessibility(props, bus, "bus_stop_name", "bus_stop", (300, 500)))
     if not parts:
         return None

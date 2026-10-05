@@ -1,0 +1,17 @@
+bundle:
+  name: flatfair
+
+variables:
+  catalog:
+    description: Existing Unity Catalog catalog that holds the raw / clean / features schemas
+    default: workspace
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    default: true
+    mode: development
+    workspace:
+      profile: databricks current-user me
