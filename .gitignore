@@ -3,6 +3,8 @@ data/cache/
 __pycache__/
 .DS_Store
 outputs/figures/
+frontend/data/transactions.json
+frontend/data/*.tmp
 # large / rebuildable by src/run_pipeline.py (small processed tables stay tracked)
 data/processed/hdb_clean.csv
 data/processed/hdb_2020_enriched.csv

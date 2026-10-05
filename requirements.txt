@@ -1,0 +1,2 @@
+# The static Market Explorer and its data-preparation script use Python's
+# standard library only. Ryan's pipeline dependencies are managed separately.

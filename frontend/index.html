@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153e38">
+  <title>FlatFair · Market Explorer</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="vendor/plotly.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="./"><span class="brand-icon" aria-hidden="true">F</span> FlatFair<span class="brand-dot">.</span></a>
+    <div class="workspace-label">HOUSING INTELLIGENCE</div>
+    <div class="nav-current"><span aria-hidden="true">▦</span> Market Explorer</div>
+    <div class="filter-heading"><h2>Explore the market</h2><button id="reset" type="button" disabled>Reset</button></div>
+    <p class="filter-help">Refine the transactions behind your insights.</p>
+    <form id="filters" aria-label="Market filters"><div id="category-filters"></div>
+      <fieldset class="year-filter"><legend>Year range</legend>
+        <div class="year-values"><output id="start-label">—</output><span>to</span><output id="end-label">—</output></div>
+        <label for="start-year">From year</label><input type="range" id="start-year" disabled>
+        <label for="end-year">To year</label><input type="range" id="end-year" disabled>
+      </fieldset>
+    </form>
+    <div class="sidebar-footer"><span class="status-dot"></span> Local market data<p>Singapore HDB resale transactions</p></div>
+  </aside>
+  <main>
+    <header class="page-header"><div><p class="eyebrow">SINGAPORE / RESALE MARKET</p><h1>Market Explorer</h1><p class="subtitle">Explore Singapore HDB resale price trends across towns, flat types and storeys.</p></div><span class="phase-badge">Market overview</span></header>
+    <div class="dataset-line"><span id="coverage">Preparing your market overview…</span><span class="currency-label">All prices in SGD</span></div>
+    <div id="status" class="status-message" role="status" aria-live="polite">Loading local transaction data…</div>
+    <section class="kpi-grid" aria-label="Market summary">
+      <article class="kpi"><p>Median Resale Price</p><strong id="kpi-price">—</strong><span>Across selected transactions</span></article>
+      <article class="kpi"><p>Median Price per SQM</p><strong id="kpi-psm">—</strong><span>Resale price per square metre</span></article>
+      <article class="kpi"><p>Number of Transactions</p><strong id="kpi-count">—</strong><span>Matching your filters</span></article>
+      <article class="kpi"><p>Number of Towns</p><strong id="kpi-towns">—</strong><span>Represented in your selection</span></article>
+    </section>
+    <div class="chart-section-heading"><h2>Market trends</h2><span>Monthly transaction insights</span></div>
+    <div id="partial-note" class="partial-note" hidden></div>
+    <section class="chart-grid" aria-label="Market charts">
+      <article class="chart-card"><div class="card-heading"><div><h3>Median resale price trend</h3><p>The typical resale price, month by month</p></div><span class="chart-tag">SGD</span></div><div id="price-chart" class="chart" aria-label="Monthly median resale price"></div></article>
+      <article class="chart-card"><div class="card-heading"><div><h3>Median price per SQM</h3><p>A view of prices relative to floor area</p></div><span class="chart-tag">SGD / sqm</span></div><div id="psm-chart" class="chart" aria-label="Monthly median price per square metre"></div></article>
+      <article class="chart-card"><div class="card-heading"><div><h3>Transaction volume</h3><p>How many flats changed hands each month</p></div><span class="chart-tag">Transactions</span></div><div id="volume-chart" class="chart" aria-label="Monthly transaction volume"></div></article>
+      <article class="chart-card"><div class="card-heading"><div><h3>Median price by town</h3><p>All towns · selected flat types, storeys and years</p></div><span class="chart-tag">SGD</span></div><div id="town-chart" class="chart town-chart" aria-label="Town median resale prices, highest first"></div></article>
+    </section>
+    <footer class="page-footer"><span>FlatFair · Market Explorer</span><span>Historical transactions. Descriptive market insights.</span></footer>
+  </main>
+</body>
+</html>
