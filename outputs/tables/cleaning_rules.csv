@@ -1,0 +1,15 @@
+column,issue,rule,reason,rows_affected
+text columns,stray/double whitespace,strip + collapse whitespace,avoid spurious category levels,0
+flat_model,mixed casing,title-case (DBSS kept upper),levels 21 -> 21,0
+month,string 'YYYY-MM',parse to first-of-month datetime,enable time features,0
+floor_area_sqm,must be > 0,drop rows where value is missing or <= 0,impossible value,0
+resale_price,must be > 0,drop rows where value is missing or <= 0,impossible value,0
+all columns,exact duplicate rows,flag only (is_exact_duplicate); keep rows,no unit id / day in data so identical sales may be genuine,318
+block+street_name,need a block key,property_id = upper(block + ' ' + street),geocode / join once per block,9755
+rows,net row change,see above,-,0
+flag_lease_inconsistent,unusual record,"flag only, not removed",may be a genuine transaction,1
+flag_extreme_price_per_sqm,unusual record,"flag only, not removed",may be a genuine transaction,488
+flag_large_area_for_type,unusual record,"flag only, not removed",may be a genuine transaction,27
+is_exact_duplicate,unusual record,"flag only, not removed",may be a genuine transaction,318
+population counts,'-' literal string,"replace with NaN, cast to float",suppressed != zero,1733
+Number,mixed hierarchy in one column,classify national / planning_area / subzone; fix 'Changi- Total',separate levels,388

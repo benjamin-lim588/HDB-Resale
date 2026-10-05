@@ -1,0 +1,389 @@
+Number,Total_Total,Total_Males,Total_Females,Chinese_Total,Chinese_Males,Chinese_Females,Malays_Total,Malays_Males,Malays_Females,Indians_Total,Indians_Males,Indians_Females,Others_Total,Others_Males,Others_Females,level,area_name,planning_area
+Total,4044210.0,1977560.0,2066650.0,3006770.0,1461340.0,1545430.0,545500.0,271330.0,274170.0,362270.0,185570.0,176710.0,129670.0,59320.0,70350.0,national,Total,
+Ang Mo Kio - Total,162280.0,77570.0,84700.0,134350.0,64050.0,70300.0,11140.0,5480.0,5660.0,12810.0,6350.0,6470.0,3970.0,1690.0,2280.0,planning_area,Ang Mo Kio,Ang Mo Kio
+Ang Mo Kio Town Centre,4810.0,2260.0,2550.0,4140.0,1950.0,2200.0,140.0,60.0,80.0,370.0,170.0,200.0,160.0,80.0,80.0,subzone,Ang Mo Kio Town Centre,Ang Mo Kio
+Cheng San,28070.0,13480.0,14600.0,23240.0,11120.0,12120.0,1940.0,960.0,980.0,2280.0,1150.0,1130.0,610.0,250.0,370.0,subzone,Cheng San,Ang Mo Kio
+Chong Boon,26500.0,12860.0,13640.0,21860.0,10590.0,11270.0,1830.0,920.0,900.0,2240.0,1130.0,1110.0,580.0,220.0,360.0,subzone,Chong Boon,Ang Mo Kio
+Kebun Bahru,22620.0,10660.0,11970.0,18710.0,8780.0,9930.0,1820.0,890.0,930.0,1590.0,780.0,800.0,510.0,210.0,300.0,subzone,Kebun Bahru,Ang Mo Kio
+Sembawang Hills,6850.0,3210.0,3650.0,6100.0,2850.0,3250.0,70.0,40.0,40.0,460.0,210.0,250.0,220.0,110.0,110.0,subzone,Sembawang Hills,Ang Mo Kio
+Shangri-La,15960.0,7780.0,8180.0,12350.0,6020.0,6330.0,1760.0,850.0,900.0,1480.0,760.0,730.0,370.0,160.0,220.0,subzone,Shangri-La,Ang Mo Kio
+Tagore,7950.0,3790.0,4160.0,7160.0,3400.0,3760.0,70.0,30.0,40.0,500.0,250.0,250.0,220.0,110.0,110.0,subzone,Tagore,Ang Mo Kio
+Townsville,21140.0,9930.0,11210.0,17360.0,8150.0,9210.0,1440.0,710.0,730.0,1760.0,840.0,920.0,590.0,240.0,350.0,subzone,Townsville,Ang Mo Kio
+Yio Chu Kang,20.0,,,,,,,,,,,,,,,subzone,Yio Chu Kang,Ang Mo Kio
+Yio Chu Kang East,4200.0,2090.0,2120.0,3740.0,1850.0,1890.0,60.0,30.0,30.0,280.0,140.0,140.0,120.0,70.0,50.0,subzone,Yio Chu Kang East,Ang Mo Kio
+Yio Chu Kang North,,,,,,,,,,,,,,,,subzone,Yio Chu Kang North,Ang Mo Kio
+Yio Chu Kang West,24150.0,11520.0,12630.0,19690.0,9350.0,10340.0,2020.0,1000.0,1020.0,1860.0,910.0,950.0,590.0,270.0,320.0,subzone,Yio Chu Kang West,Ang Mo Kio
+Bedok - Total,276990.0,134210.0,142790.0,201780.0,96890.0,104880.0,39300.0,19340.0,19950.0,24450.0,12480.0,11960.0,11470.0,5490.0,5990.0,planning_area,Bedok,Bedok
+Bayshore,7450.0,3580.0,3870.0,5090.0,2370.0,2710.0,130.0,50.0,80.0,1590.0,790.0,800.0,650.0,370.0,290.0,subzone,Bayshore,Bedok
+Bedok North,81840.0,39700.0,42140.0,57440.0,27640.0,29800.0,15580.0,7750.0,7820.0,6200.0,3180.0,3020.0,2620.0,1130.0,1500.0,subzone,Bedok North,Bedok
+Bedok Reservoir,25470.0,12480.0,12990.0,19150.0,9340.0,9810.0,3270.0,1610.0,1660.0,2220.0,1140.0,1080.0,830.0,390.0,440.0,subzone,Bedok Reservoir,Bedok
+Bedok South,46690.0,22540.0,24160.0,36480.0,17450.0,19030.0,4570.0,2250.0,2320.0,3410.0,1740.0,1660.0,2240.0,1100.0,1140.0,subzone,Bedok South,Bedok
+Frankel,34490.0,16260.0,18230.0,28300.0,13180.0,15120.0,1040.0,460.0,590.0,2730.0,1390.0,1340.0,2420.0,1240.0,1180.0,subzone,Frankel,Bedok
+Kaki Bukit,37150.0,18210.0,18940.0,24060.0,11710.0,12350.0,8710.0,4310.0,4410.0,3380.0,1750.0,1630.0,990.0,440.0,550.0,subzone,Kaki Bukit,Bedok
+Kembangan,37460.0,18460.0,19010.0,26700.0,13140.0,13560.0,5870.0,2870.0,3010.0,3550.0,1820.0,1730.0,1340.0,630.0,710.0,subzone,Kembangan,Bedok
+Siglap,6440.0,2980.0,3460.0,4570.0,2070.0,2500.0,120.0,50.0,80.0,1380.0,670.0,700.0,370.0,190.0,180.0,subzone,Siglap,Bedok
+Bishan - Total,87320.0,42260.0,45060.0,75040.0,36220.0,38820.0,3190.0,1560.0,1630.0,6490.0,3240.0,3260.0,2590.0,1240.0,1350.0,planning_area,Bishan,Bishan
+Bishan East,28310.0,13420.0,14880.0,23910.0,11290.0,12620.0,1260.0,610.0,650.0,2360.0,1170.0,1190.0,780.0,360.0,420.0,subzone,Bishan East,Bishan
+Marymount,29620.0,14680.0,14940.0,25630.0,12700.0,12930.0,1020.0,500.0,530.0,2120.0,1070.0,1050.0,850.0,410.0,440.0,subzone,Marymount,Bishan
+Upper Thomson,29390.0,14160.0,15230.0,25500.0,12230.0,13280.0,910.0,450.0,450.0,2010.0,1000.0,1010.0,970.0,480.0,490.0,subzone,Upper Thomson,Bishan
+Boon Lay - Total,40.0,,,,,,,,,,,,,,,planning_area,Boon Lay,Boon Lay
+Liu Fang,10.0,,,,,,,,,,,,,,,subzone,Liu Fang,Boon Lay
+Samulun,10.0,,,,,,,,,,,,,,,subzone,Samulun,Boon Lay
+Shipyard,,,,,,,,,,,,,,,,subzone,Shipyard,Boon Lay
+Tukang,10.0,,,,,,,,,,,,,,,subzone,Tukang,Boon Lay
+Bukit Batok - Total,158030.0,77480.0,80550.0,113460.0,55320.0,58140.0,25240.0,12520.0,12730.0,14950.0,7650.0,7300.0,4380.0,2000.0,2380.0,planning_area,Bukit Batok,Bukit Batok
+Brickworks,19820.0,9800.0,10020.0,12620.0,6250.0,6360.0,5440.0,2730.0,2700.0,1380.0,690.0,690.0,380.0,120.0,260.0,subzone,Brickworks,Bukit Batok
+Bukit Batok Central,27290.0,13290.0,14000.0,20820.0,10100.0,10720.0,3520.0,1740.0,1780.0,2350.0,1180.0,1170.0,600.0,260.0,340.0,subzone,Bukit Batok Central,Bukit Batok
+Bukit Batok East,12690.0,6290.0,6410.0,7850.0,3800.0,4050.0,2990.0,1510.0,1480.0,1590.0,860.0,730.0,270.0,110.0,150.0,subzone,Bukit Batok East,Bukit Batok
+Bukit Batok South,14930.0,7360.0,7570.0,11140.0,5450.0,5690.0,1780.0,880.0,910.0,1620.0,840.0,780.0,390.0,190.0,200.0,subzone,Bukit Batok South,Bukit Batok
+Bukit Batok West,15000.0,7300.0,7700.0,10450.0,5090.0,5360.0,2560.0,1240.0,1320.0,1680.0,850.0,830.0,310.0,120.0,190.0,subzone,Bukit Batok West,Bukit Batok
+Gombak,9930.0,4840.0,5090.0,8430.0,4120.0,4310.0,560.0,260.0,300.0,670.0,340.0,330.0,260.0,130.0,140.0,subzone,Gombak,Bukit Batok
+Guilin,12940.0,6290.0,6650.0,8910.0,4290.0,4620.0,1960.0,960.0,1000.0,1600.0,810.0,780.0,470.0,220.0,240.0,subzone,Guilin,Bukit Batok
+Hillview,19300.0,9290.0,10000.0,16680.0,7960.0,8720.0,340.0,160.0,180.0,1210.0,600.0,610.0,1070.0,580.0,500.0,subzone,Hillview,Bukit Batok
+Hong Kah North,26150.0,13030.0,13120.0,16580.0,8260.0,8320.0,6100.0,3040.0,3060.0,2840.0,1470.0,1380.0,640.0,270.0,370.0,subzone,Hong Kah North,Bukit Batok
+Bukit Merah - Total,151250.0,72730.0,78520.0,120830.0,57490.0,63350.0,11430.0,5850.0,5580.0,13980.0,7110.0,6870.0,5010.0,2290.0,2730.0,planning_area,Bukit Merah,Bukit Merah
+Alexandra Hill,13490.0,6630.0,6860.0,9850.0,4770.0,5080.0,1950.0,1000.0,950.0,1410.0,740.0,670.0,280.0,120.0,160.0,subzone,Alexandra Hill,Bukit Merah
+Alexandra North,2620.0,1230.0,1400.0,2200.0,1010.0,1190.0,20.0,10.0,10.0,230.0,110.0,120.0,180.0,100.0,80.0,subzone,Alexandra North,Bukit Merah
+Bukit Ho Swee,14390.0,7050.0,7340.0,11570.0,5570.0,6000.0,1290.0,690.0,600.0,1160.0,620.0,540.0,380.0,180.0,200.0,subzone,Bukit Ho Swee,Bukit Merah
+Bukit Merah,1110.0,550.0,570.0,920.0,450.0,470.0,10.0,,10.0,140.0,70.0,70.0,40.0,20.0,20.0,subzone,Bukit Merah,Bukit Merah
+City Terminals,20.0,,,,,,,,,,,,,,,subzone,City Terminals,Bukit Merah
+Depot Road,6540.0,3090.0,3450.0,5290.0,2480.0,2820.0,170.0,80.0,90.0,780.0,390.0,390.0,300.0,140.0,160.0,subzone,Depot Road,Bukit Merah
+Everton Park,7810.0,3680.0,4120.0,6240.0,2910.0,3330.0,420.0,220.0,190.0,810.0,390.0,420.0,340.0,160.0,180.0,subzone,Everton Park,Bukit Merah
+Henderson Hill,13320.0,6490.0,6830.0,10240.0,4990.0,5250.0,1480.0,730.0,750.0,1240.0,620.0,610.0,370.0,150.0,220.0,subzone,Henderson Hill,Bukit Merah
+Kampong Tiong Bahru,9010.0,4440.0,4560.0,6900.0,3390.0,3510.0,960.0,520.0,440.0,930.0,470.0,470.0,220.0,80.0,140.0,subzone,Kampong Tiong Bahru,Bukit Merah
+Maritime Square,3620.0,1770.0,1850.0,2570.0,1230.0,1340.0,70.0,40.0,30.0,370.0,190.0,180.0,610.0,320.0,300.0,subzone,Maritime Square,Bukit Merah
+Redhill,10620.0,5150.0,5470.0,8530.0,4090.0,4450.0,860.0,430.0,430.0,900.0,490.0,420.0,330.0,150.0,180.0,subzone,Redhill,Bukit Merah
+Singapore General Hospital,10.0,,,,,,,,,,,,,,,subzone,Singapore General Hospital,Bukit Merah
+Telok Blangah Drive,19320.0,9170.0,10140.0,15760.0,7430.0,8330.0,1340.0,680.0,660.0,1730.0,870.0,860.0,490.0,200.0,290.0,subzone,Telok Blangah Drive,Bukit Merah
+Telok Blangah Rise,12150.0,5740.0,6420.0,9760.0,4570.0,5190.0,700.0,350.0,350.0,1400.0,690.0,710.0,300.0,130.0,170.0,subzone,Telok Blangah Rise,Bukit Merah
+Telok Blangah Way,9230.0,4610.0,4620.0,7100.0,3520.0,3580.0,1010.0,540.0,470.0,930.0,480.0,460.0,180.0,70.0,120.0,subzone,Telok Blangah Way,Bukit Merah
+Tiong Bahru,12890.0,5990.0,6900.0,11400.0,5260.0,6150.0,250.0,110.0,140.0,780.0,390.0,380.0,460.0,230.0,240.0,subzone,Tiong Bahru,Bukit Merah
+Tiong Bahru Station,15120.0,7140.0,7980.0,12500.0,5830.0,6660.0,920.0,450.0,470.0,1170.0,600.0,580.0,530.0,260.0,280.0,subzone,Tiong Bahru Station,Bukit Merah
+Bukit Panjang - Total,138270.0,68150.0,70120.0,102800.0,50480.0,52310.0,21690.0,10910.0,10780.0,10340.0,5240.0,5100.0,3450.0,1520.0,1930.0,planning_area,Bukit Panjang,Bukit Panjang
+Bangkit,22270.0,11010.0,11260.0,16630.0,8190.0,8440.0,3800.0,1900.0,1900.0,1420.0,740.0,680.0,410.0,170.0,240.0,subzone,Bangkit,Bukit Panjang
+Dairy Farm,6940.0,3350.0,3590.0,5990.0,2890.0,3100.0,110.0,50.0,60.0,430.0,200.0,230.0,400.0,200.0,200.0,subzone,Dairy Farm,Bukit Panjang
+Fajar,27820.0,13870.0,13950.0,18950.0,9380.0,9570.0,5950.0,3070.0,2880.0,2270.0,1150.0,1120.0,650.0,270.0,370.0,subzone,Fajar,Bukit Panjang
+Jelebu,31310.0,15370.0,15940.0,24700.0,12100.0,12610.0,3770.0,1880.0,1880.0,2100.0,1060.0,1050.0,740.0,340.0,400.0,subzone,Jelebu,Bukit Panjang
+Nature Reserve,3850.0,1810.0,2040.0,3170.0,1470.0,1710.0,80.0,30.0,50.0,300.0,150.0,150.0,300.0,160.0,140.0,subzone,Nature Reserve,Bukit Panjang
+Saujana,25920.0,12830.0,13090.0,18540.0,9140.0,9400.0,4630.0,2350.0,2290.0,2250.0,1150.0,1100.0,510.0,200.0,310.0,subzone,Saujana,Bukit Panjang
+Senja,20170.0,9920.0,10260.0,14810.0,7330.0,7480.0,3360.0,1630.0,1730.0,1560.0,790.0,770.0,440.0,170.0,270.0,subzone,Senja,Bukit Panjang
+Bukit Timah - Total,77860.0,35980.0,41880.0,67400.0,30950.0,36450.0,640.0,250.0,390.0,3840.0,1850.0,1990.0,5980.0,2930.0,3050.0,planning_area,Bukit Timah,Bukit Timah
+Anak Bukit,21870.0,10370.0,11500.0,19930.0,9400.0,10530.0,210.0,90.0,120.0,880.0,430.0,450.0,850.0,440.0,410.0,subzone,Anak Bukit,Bukit Timah
+Coronation Road,6690.0,3050.0,3650.0,5880.0,2690.0,3190.0,30.0,10.0,20.0,280.0,130.0,150.0,510.0,220.0,290.0,subzone,Coronation Road,Bukit Timah
+Farrer Court,6180.0,2900.0,3280.0,5430.0,2540.0,2890.0,90.0,40.0,50.0,270.0,130.0,140.0,390.0,190.0,200.0,subzone,Farrer Court,Bukit Timah
+Hillcrest,9470.0,4170.0,5300.0,7890.0,3460.0,4430.0,60.0,10.0,50.0,580.0,260.0,320.0,950.0,440.0,510.0,subzone,Hillcrest,Bukit Timah
+Holland Road,10840.0,4800.0,6040.0,9350.0,4100.0,5250.0,60.0,20.0,40.0,510.0,240.0,270.0,920.0,440.0,490.0,subzone,Holland Road,Bukit Timah
+Leedon Park,6440.0,2960.0,3480.0,5120.0,2310.0,2810.0,70.0,20.0,40.0,410.0,200.0,220.0,850.0,430.0,420.0,subzone,Leedon Park,Bukit Timah
+Swiss Club,5340.0,2470.0,2880.0,4540.0,2060.0,2480.0,50.0,20.0,30.0,260.0,140.0,120.0,490.0,240.0,250.0,subzone,Swiss Club,Bukit Timah
+Ulu Pandan,11020.0,5280.0,5740.0,9260.0,4390.0,4880.0,80.0,30.0,50.0,660.0,330.0,330.0,1020.0,530.0,490.0,subzone,Ulu Pandan,Bukit Timah
+Central Water Catchment - Total,,,,,,,,,,,,,,,,planning_area,Central Water Catchment,Central Water Catchment
+Central Water Catchment,,,,,,,,,,,,,,,,subzone,Central Water Catchment,Central Water Catchment
+Changi- Total,1850.0,960.0,890.0,820.0,410.0,410.0,620.0,330.0,300.0,320.0,180.0,140.0,90.0,40.0,50.0,planning_area,Changi,Changi
+Changi Airport,10.0,,,,,,,,,,,,,,,subzone,Changi Airport,Changi
+Changi Point,540.0,300.0,240.0,250.0,140.0,110.0,180.0,90.0,90.0,60.0,40.0,20.0,50.0,30.0,20.0,subzone,Changi Point,Changi
+Changi West,1300.0,660.0,650.0,560.0,270.0,290.0,440.0,230.0,210.0,260.0,140.0,120.0,40.0,10.0,20.0,subzone,Changi West,Changi
+Changi Bay - Total,,,,,,,,,,,,,,,,planning_area,Changi Bay,Changi Bay
+Changi Bay,,,,,,,,,,,,,,,,subzone,Changi Bay,Changi Bay
+Choa Chu Kang - Total,192070.0,95690.0,96380.0,133520.0,66400.0,67120.0,35500.0,17790.0,17710.0,18020.0,9210.0,8810.0,5020.0,2290.0,2730.0,planning_area,Choa Chu Kang,Choa Chu Kang
+Choa Chu Kang Central,22530.0,11180.0,11340.0,17320.0,8570.0,8750.0,2870.0,1410.0,1460.0,1760.0,920.0,830.0,580.0,280.0,300.0,subzone,Choa Chu Kang Central,Choa Chu Kang
+Choa Chu Kang North,31930.0,15860.0,16070.0,22490.0,11190.0,11300.0,5360.0,2650.0,2710.0,3160.0,1590.0,1580.0,910.0,440.0,480.0,subzone,Choa Chu Kang North,Choa Chu Kang
+Keat Hong,38180.0,19010.0,19170.0,25720.0,12780.0,12930.0,8370.0,4240.0,4130.0,3320.0,1690.0,1620.0,780.0,290.0,490.0,subzone,Keat Hong,Choa Chu Kang
+Peng Siang,34720.0,17340.0,17390.0,23160.0,11540.0,11610.0,6990.0,3510.0,3480.0,3730.0,1900.0,1830.0,860.0,390.0,460.0,subzone,Peng Siang,Choa Chu Kang
+Teck Whye,24320.0,12190.0,12140.0,15450.0,7760.0,7690.0,5830.0,2930.0,2910.0,2530.0,1290.0,1240.0,510.0,210.0,300.0,subzone,Teck Whye,Choa Chu Kang
+Yew Tee,40390.0,20100.0,20280.0,29390.0,14550.0,14840.0,6080.0,3050.0,3030.0,3540.0,1830.0,1710.0,1380.0,680.0,700.0,subzone,Yew Tee,Choa Chu Kang
+Clementi - Total,91990.0,43630.0,48360.0,73630.0,34630.0,39010.0,8270.0,4090.0,4180.0,6970.0,3470.0,3510.0,3120.0,1450.0,1670.0,planning_area,Clementi,Clementi
+Clementi Central,14000.0,6600.0,7400.0,11190.0,5250.0,5950.0,1420.0,690.0,730.0,940.0,470.0,480.0,440.0,200.0,250.0,subzone,Clementi Central,Clementi
+Clementi North,28810.0,13400.0,15410.0,23270.0,10740.0,12530.0,2760.0,1350.0,1420.0,1980.0,970.0,1020.0,790.0,340.0,450.0,subzone,Clementi North,Clementi
+Clementi West,15260.0,7310.0,7950.0,10940.0,5170.0,5770.0,2190.0,1100.0,1090.0,1700.0,850.0,850.0,440.0,200.0,240.0,subzone,Clementi West,Clementi
+Clementi Woods,16000.0,7660.0,8340.0,12430.0,5880.0,6560.0,1630.0,820.0,810.0,1380.0,680.0,690.0,560.0,280.0,290.0,subzone,Clementi Woods,Clementi
+Faber,5360.0,2620.0,2740.0,4840.0,2370.0,2470.0,30.0,20.0,20.0,270.0,140.0,130.0,230.0,110.0,130.0,subzone,Faber,Clementi
+Pandan,20.0,,,,,,,,,,,,,,,subzone,Pandan,Clementi
+Sunset Way,5650.0,2640.0,3010.0,4740.0,2190.0,2550.0,180.0,80.0,90.0,360.0,180.0,180.0,380.0,190.0,190.0,subzone,Sunset Way,Clementi
+Toh Tuck,20.0,,,,,,,,,,,,,,,subzone,Toh Tuck,Clementi
+West Coast,6870.0,3370.0,3500.0,6190.0,3020.0,3170.0,70.0,30.0,40.0,340.0,180.0,160.0,270.0,140.0,140.0,subzone,West Coast,Clementi
+Downtown Core - Total,3190.0,1590.0,1600.0,2500.0,1200.0,1290.0,30.0,20.0,10.0,200.0,120.0,90.0,460.0,260.0,210.0,planning_area,Downtown Core,Downtown Core
+Anson,80.0,,,,,,,,,,,,,,,subzone,Anson,Downtown Core
+Bayfront Subzone,,,,,,,,,,,,,,,,subzone,Bayfront Subzone,Downtown Core
+Bugis,890.0,440.0,450.0,800.0,390.0,410.0,10.0,10.0,10.0,40.0,20.0,20.0,40.0,30.0,20.0,subzone,Bugis,Downtown Core
+Cecil,260.0,130.0,130.0,190.0,90.0,100.0,,,,10.0,10.0,10.0,50.0,30.0,20.0,subzone,Cecil,Downtown Core
+Central Subzone,880.0,410.0,470.0,650.0,300.0,350.0,10.0,,,60.0,30.0,30.0,160.0,80.0,90.0,subzone,Central Subzone,Downtown Core
+City Hall,80.0,,,,,,,,,,,,,,,subzone,City Hall,Downtown Core
+Clifford Pier,,,,,,,,,,,,,,,,subzone,Clifford Pier,Downtown Core
+Marina Centre,10.0,,,,,,,,,,,,,,,subzone,Marina Centre,Downtown Core
+Maxwell,,,,,,,,,,,,,,,,subzone,Maxwell,Downtown Core
+Nicoll,290.0,150.0,140.0,210.0,110.0,100.0,,,,20.0,10.0,10.0,60.0,30.0,30.0,subzone,Nicoll,Downtown Core
+Phillip,10.0,,,,,,,,,,,,,,,subzone,Phillip,Downtown Core
+Raffles Place,40.0,,,,,,,,,,,,,,,subzone,Raffles Place,Downtown Core
+Tanjong Pagar,670.0,350.0,320.0,500.0,240.0,260.0,10.0,,,50.0,40.0,10.0,110.0,70.0,40.0,subzone,Tanjong Pagar,Downtown Core
+Geylang - Total,110110.0,54260.0,55860.0,85460.0,41930.0,43520.0,12470.0,6200.0,6270.0,8640.0,4530.0,4100.0,3550.0,1590.0,1960.0,planning_area,Geylang,Geylang
+Aljunied,39990.0,19740.0,20250.0,33870.0,16680.0,17190.0,2300.0,1140.0,1160.0,2330.0,1230.0,1100.0,1500.0,690.0,810.0,subzone,Aljunied,Geylang
+Geylang East,29920.0,14540.0,15380.0,22210.0,10720.0,11490.0,4100.0,2000.0,2100.0,2520.0,1290.0,1230.0,1100.0,530.0,570.0,subzone,Geylang East,Geylang
+Kallang Way,30.0,,,,,,,,,,,,,,,subzone,Kallang Way,Geylang
+Kampong Ubi,11800.0,5890.0,5910.0,8110.0,4030.0,4080.0,2340.0,1180.0,1150.0,1030.0,540.0,480.0,330.0,130.0,190.0,subzone,Kampong Ubi,Geylang
+Macpherson,28360.0,14070.0,14300.0,21240.0,10490.0,10750.0,3740.0,1880.0,1870.0,2750.0,1460.0,1290.0,630.0,240.0,390.0,subzone,Macpherson,Geylang
+Hougang - Total,227560.0,111490.0,116070.0,184810.0,90310.0,94500.0,18760.0,9310.0,9450.0,18710.0,9600.0,9110.0,5290.0,2270.0,3020.0,planning_area,Hougang,Hougang
+Defu Industrial Park,20.0,,,,,,,,,,,,,,,subzone,Defu Industrial Park,Hougang
+Hougang Central,4720.0,2350.0,2370.0,4130.0,2070.0,2060.0,200.0,100.0,100.0,340.0,160.0,180.0,60.0,30.0,30.0,subzone,Hougang Central,Hougang
+Hougang East,24920.0,12110.0,12810.0,20400.0,9940.0,10460.0,2010.0,970.0,1040.0,2020.0,1010.0,1010.0,490.0,190.0,300.0,subzone,Hougang East,Hougang
+Hougang West,45460.0,22410.0,23050.0,36270.0,17850.0,18420.0,4390.0,2200.0,2190.0,3930.0,2010.0,1920.0,870.0,350.0,520.0,subzone,Hougang West,Hougang
+Kangkar,32290.0,15740.0,16540.0,26340.0,12870.0,13470.0,2470.0,1190.0,1280.0,2730.0,1380.0,1350.0,750.0,310.0,440.0,subzone,Kangkar,Hougang
+Kovan,24810.0,11960.0,12840.0,22240.0,10710.0,11520.0,550.0,260.0,290.0,1350.0,670.0,690.0,670.0,330.0,340.0,subzone,Kovan,Hougang
+Lorong Ah Soo,32320.0,15270.0,17050.0,27060.0,12700.0,14350.0,2290.0,1140.0,1150.0,2360.0,1170.0,1190.0,620.0,260.0,360.0,subzone,Lorong Ah Soo,Hougang
+Lorong Halus,,,,,,,,,,,,,,,,subzone,Lorong Halus,Hougang
+Tai Seng,13830.0,6670.0,7160.0,11370.0,5440.0,5930.0,1130.0,560.0,570.0,1070.0,570.0,500.0,270.0,110.0,160.0,subzone,Tai Seng,Hougang
+Trafalgar,49200.0,24950.0,24240.0,37000.0,18710.0,18290.0,5720.0,2900.0,2820.0,4920.0,2640.0,2280.0,1560.0,700.0,860.0,subzone,Trafalgar,Hougang
+Jurong East - Total,78600.0,38930.0,39670.0,55440.0,27300.0,28140.0,12700.0,6350.0,6350.0,8610.0,4470.0,4140.0,1850.0,810.0,1040.0,planning_area,Jurong East,Jurong East
+International Business Park,10.0,,,,,,,,,,,,,,,subzone,International Business Park,Jurong East
+Jurong Gateway,450.0,210.0,240.0,410.0,190.0,220.0,,,,30.0,10.0,10.0,10.0,10.0,10.0,subzone,Jurong Gateway,Jurong East
+Jurong Port,,,,,,,,,,,,,,,,subzone,Jurong Port,Jurong East
+Jurong River,10.0,,,,,,,,,,,,,,,subzone,Jurong River,Jurong East
+Lakeside (Business),,,,,,,,,,,,,,,,subzone,Lakeside (Business),Jurong East
+Lakeside (Leisure),1070.0,570.0,500.0,910.0,480.0,430.0,40.0,20.0,20.0,80.0,50.0,40.0,40.0,20.0,20.0,subzone,Lakeside (Leisure),Jurong East
+Penjuru Crescent,10.0,,,,,,,,,,,,,,,subzone,Penjuru Crescent,Jurong East
+Teban Gardens,18530.0,9250.0,9280.0,11490.0,5730.0,5760.0,4590.0,2270.0,2320.0,2110.0,1110.0,1000.0,350.0,140.0,210.0,subzone,Teban Gardens,Jurong East
+Toh Guan,14590.0,7230.0,7360.0,11160.0,5510.0,5650.0,1560.0,770.0,790.0,1470.0,770.0,700.0,390.0,180.0,210.0,subzone,Toh Guan,Jurong East
+Yuhua East,24770.0,12120.0,12650.0,17960.0,8710.0,9250.0,3570.0,1810.0,1760.0,2700.0,1370.0,1330.0,550.0,240.0,310.0,subzone,Yuhua East,Jurong East
+Yuhua West,19160.0,9530.0,9630.0,13480.0,6670.0,6820.0,2940.0,1490.0,1460.0,2220.0,1150.0,1060.0,510.0,230.0,290.0,subzone,Yuhua West,Jurong East
+Jurong West - Total,262730.0,131900.0,130840.0,183590.0,91900.0,91690.0,46520.0,23370.0,23150.0,26360.0,13860.0,12490.0,6260.0,2760.0,3500.0,planning_area,Jurong West,Jurong West
+Boon Lay Place,29340.0,15060.0,14270.0,19040.0,9760.0,9280.0,6840.0,3520.0,3320.0,2710.0,1470.0,1240.0,740.0,310.0,430.0,subzone,Boon Lay Place,Jurong West
+Chin Bee,,,,,,,,,,,,,,,,subzone,Chin Bee,Jurong West
+Hong Kah,53890.0,26650.0,27230.0,36750.0,18080.0,18670.0,10240.0,5090.0,5160.0,5690.0,2970.0,2720.0,1200.0,510.0,690.0,subzone,Hong Kah,Jurong West
+Jurong West Central,63760.0,31810.0,31950.0,49000.0,24360.0,24640.0,7450.0,3750.0,3700.0,5290.0,2770.0,2520.0,2030.0,940.0,1090.0,subzone,Jurong West Central,Jurong West
+Kian Teck,40.0,,,,,,,,,,,,,,,subzone,Kian Teck,Jurong West
+Safti,,,,,,,,,,,,,,,,subzone,Safti,Jurong West
+Taman Jurong,39920.0,19920.0,20000.0,28610.0,14350.0,14270.0,6500.0,3210.0,3290.0,3910.0,1980.0,1930.0,890.0,380.0,510.0,subzone,Taman Jurong,Jurong West
+Wenya,8280.0,4170.0,4110.0,5360.0,2700.0,2670.0,1520.0,770.0,750.0,1150.0,590.0,560.0,250.0,110.0,140.0,subzone,Wenya,Jurong West
+Yunnan,67500.0,34250.0,33250.0,44790.0,22630.0,22160.0,13970.0,7040.0,6930.0,7600.0,4080.0,3520.0,1150.0,500.0,640.0,subzone,Yunnan,Jurong West
+Kallang - Total,101290.0,50040.0,51260.0,77010.0,37540.0,39460.0,7000.0,3600.0,3400.0,14510.0,7630.0,6880.0,2780.0,1270.0,1510.0,planning_area,Kallang,Kallang
+Bendemeer,37570.0,18240.0,19330.0,31040.0,14910.0,16130.0,1380.0,690.0,700.0,4450.0,2340.0,2110.0,690.0,300.0,390.0,subzone,Bendemeer,Kallang
+Boon Keng,11790.0,5630.0,6160.0,9530.0,4540.0,4990.0,1090.0,540.0,550.0,890.0,430.0,460.0,280.0,120.0,160.0,subzone,Boon Keng,Kallang
+Crawford,8380.0,4630.0,3750.0,5670.0,3120.0,2550.0,1600.0,890.0,710.0,900.0,550.0,350.0,220.0,80.0,140.0,subzone,Crawford,Kallang
+Geylang Bahru,11280.0,5620.0,5660.0,8480.0,4180.0,4300.0,1310.0,670.0,640.0,1310.0,710.0,600.0,180.0,60.0,120.0,subzone,Geylang Bahru,Kallang
+Kallang Bahru,20.0,,,,,,,,,,,,,,,subzone,Kallang Bahru,Kallang
+Kampong Bugis,920.0,460.0,460.0,760.0,380.0,380.0,40.0,20.0,30.0,100.0,60.0,40.0,20.0,10.0,10.0,subzone,Kampong Bugis,Kallang
+Kampong Java,10530.0,5140.0,5390.0,8220.0,3980.0,4230.0,330.0,150.0,180.0,1580.0,830.0,750.0,400.0,170.0,230.0,subzone,Kampong Java,Kallang
+Lavender,9690.0,5070.0,4610.0,6740.0,3460.0,3290.0,840.0,450.0,390.0,1760.0,990.0,770.0,340.0,180.0,160.0,subzone,Lavender,Kallang
+Tanjong Rhu,11110.0,5230.0,5880.0,6560.0,2970.0,3590.0,390.0,190.0,190.0,3520.0,1730.0,1800.0,640.0,340.0,300.0,subzone,Tanjong Rhu,Kallang
+Lim Chu Kang - Total,110.0,60.0,50.0,100.0,50.0,50.0,,,,,,,,,,planning_area,Lim Chu Kang,Lim Chu Kang
+Lim Chu Kang,110.0,60.0,50.0,100.0,50.0,50.0,,,,,,,,,,subzone,Lim Chu Kang,Lim Chu Kang
+Mandai - Total,2090.0,990.0,1100.0,1650.0,780.0,870.0,110.0,50.0,70.0,270.0,140.0,130.0,60.0,20.0,30.0,planning_area,Mandai,Mandai
+Mandai East,,,,,,,,,,,,,,,,subzone,Mandai East,Mandai
+Mandai Estate,2090.0,990.0,1100.0,1650.0,780.0,870.0,110.0,50.0,70.0,270.0,140.0,130.0,60.0,20.0,30.0,subzone,Mandai Estate,Mandai
+Mandai West,,,,,,,,,,,,,,,,subzone,Mandai West,Mandai
+Marina East - Total,,,,,,,,,,,,,,,,planning_area,Marina East,Marina East
+Marina East,,,,,,,,,,,,,,,,subzone,Marina East,Marina East
+Marina South - Total,,,,,,,,,,,,,,,,planning_area,Marina South,Marina South
+Marina South,,,,,,,,,,,,,,,,subzone,Marina South,Marina South
+Marine Parade - Total,46220.0,21700.0,24520.0,35050.0,16200.0,18850.0,3120.0,1530.0,1590.0,5510.0,2710.0,2810.0,2530.0,1260.0,1270.0,planning_area,Marine Parade,Marine Parade
+East Coast,,,,,,,,,,,,,,,,subzone,East Coast,Marine Parade
+Katong,9360.0,4440.0,4910.0,8050.0,3760.0,4290.0,110.0,60.0,60.0,650.0,340.0,310.0,550.0,290.0,250.0,subzone,Katong,Marine Parade
+Marina East (Mp),,,,,,,,,,,,,,,,subzone,Marina East (Mp),Marine Parade
+Marine Parade,26880.0,12530.0,14350.0,19860.0,9080.0,10780.0,2940.0,1440.0,1490.0,2650.0,1320.0,1330.0,1430.0,690.0,750.0,subzone,Marine Parade,Marine Parade
+Mountbatten,9980.0,4720.0,5260.0,7140.0,3360.0,3780.0,70.0,40.0,40.0,2220.0,1050.0,1170.0,550.0,280.0,270.0,subzone,Mountbatten,Marine Parade
+Museum - Total,510.0,260.0,250.0,360.0,160.0,190.0,,,,40.0,30.0,10.0,110.0,60.0,50.0,planning_area,Museum,Museum
+Bras Basah,10.0,,,,,,,,,,,,,,,subzone,Bras Basah,Museum
+Dhoby Ghaut,320.0,160.0,160.0,260.0,130.0,130.0,,,,20.0,10.0,,40.0,20.0,20.0,subzone,Dhoby Ghaut,Museum
+Fort Canning,190.0,90.0,90.0,90.0,40.0,60.0,,,,20.0,10.0,10.0,70.0,40.0,30.0,subzone,Fort Canning,Museum
+Newton - Total,8260.0,3950.0,4310.0,6110.0,2880.0,3230.0,60.0,10.0,50.0,750.0,370.0,380.0,1340.0,690.0,650.0,planning_area,Newton,Newton
+Cairnhill,3880.0,1830.0,2060.0,2910.0,1360.0,1550.0,30.0,10.0,20.0,360.0,160.0,200.0,580.0,300.0,290.0,subzone,Cairnhill,Newton
+Goodwood Park,1260.0,600.0,660.0,1020.0,480.0,540.0,,,,70.0,40.0,30.0,160.0,80.0,80.0,subzone,Goodwood Park,Newton
+Istana Negara,60.0,,,,,,,,,,,,,,,subzone,Istana Negara,Newton
+Monk's Hill,1030.0,520.0,510.0,770.0,390.0,380.0,10.0,,10.0,120.0,60.0,60.0,140.0,70.0,70.0,subzone,Monk's Hill,Newton
+Newton Circus,250.0,140.0,110.0,180.0,100.0,80.0,,,,20.0,10.0,10.0,50.0,30.0,20.0,subzone,Newton Circus,Newton
+Orange Grove,1790.0,840.0,950.0,1200.0,540.0,660.0,20.0,10.0,10.0,170.0,80.0,90.0,410.0,210.0,190.0,subzone,Orange Grove,Newton
+North-Eastern Islands - Total,50.0,,,,,,,,,,,,,,,planning_area,North-Eastern Islands,North-Eastern Islands
+North-Eastern Islands,50.0,,,,,,,,,,,,,,,subzone,North-Eastern Islands,North-Eastern Islands
+Novena - Total,49330.0,23930.0,25400.0,40720.0,19660.0,21060.0,1730.0,840.0,890.0,4140.0,2130.0,2010.0,2740.0,1300.0,1440.0,planning_area,Novena,Novena
+Balestier,32430.0,15670.0,16760.0,26610.0,12820.0,13790.0,1600.0,780.0,820.0,3010.0,1540.0,1470.0,1210.0,520.0,690.0,subzone,Balestier,Novena
+Dunearn,3960.0,1800.0,2150.0,3230.0,1440.0,1790.0,20.0,10.0,20.0,320.0,160.0,160.0,390.0,200.0,190.0,subzone,Dunearn,Novena
+Malcolm,2950.0,1380.0,1570.0,2430.0,1130.0,1300.0,30.0,10.0,20.0,180.0,90.0,90.0,320.0,150.0,170.0,subzone,Malcolm,Novena
+Moulmein,9300.0,4720.0,4580.0,7940.0,4000.0,3940.0,70.0,30.0,40.0,600.0,320.0,270.0,700.0,370.0,330.0,subzone,Moulmein,Novena
+Mount Pleasant,690.0,350.0,340.0,520.0,270.0,250.0,10.0,,,40.0,20.0,20.0,120.0,60.0,60.0,subzone,Mount Pleasant,Novena
+Orchard - Total,920.0,430.0,490.0,630.0,280.0,350.0,20.0,10.0,10.0,80.0,40.0,40.0,200.0,100.0,90.0,planning_area,Orchard,Orchard
+Boulevard,410.0,210.0,200.0,290.0,130.0,150.0,10.0,10.0,,20.0,10.0,10.0,90.0,60.0,30.0,subzone,Boulevard,Orchard
+Somerset,140.0,60.0,80.0,120.0,50.0,70.0,,,,10.0,,,10.0,10.0,10.0,subzone,Somerset,Orchard
+Tanglin,370.0,170.0,210.0,220.0,100.0,130.0,10.0,,,50.0,30.0,30.0,90.0,40.0,50.0,subzone,Tanglin,Orchard
+Outram - Total,18340.0,9210.0,9130.0,14910.0,7370.0,7550.0,1650.0,890.0,770.0,1290.0,720.0,570.0,480.0,230.0,240.0,planning_area,Outram,Outram
+China Square,1430.0,670.0,760.0,1390.0,650.0,740.0,,,,20.0,10.0,10.0,20.0,10.0,10.0,subzone,China Square,Outram
+Chinatown,10490.0,5040.0,5450.0,8780.0,4130.0,4650.0,570.0,310.0,260.0,790.0,410.0,380.0,350.0,190.0,170.0,subzone,Chinatown,Outram
+Pearl's Hill,6120.0,3370.0,2750.0,4460.0,2450.0,2010.0,1070.0,570.0,500.0,480.0,300.0,180.0,100.0,40.0,60.0,subzone,Pearl's Hill,Outram
+People's Park,290.0,140.0,160.0,290.0,130.0,160.0,,,,,,,,,,subzone,People's Park,Outram
+Pasir Ris - Total,147110.0,72540.0,74570.0,98790.0,48390.0,50400.0,29370.0,14570.0,14800.0,13120.0,6760.0,6370.0,5840.0,2830.0,3010.0,planning_area,Pasir Ris,Pasir Ris
+Flora Drive,14680.0,7200.0,7470.0,11330.0,5490.0,5840.0,1350.0,650.0,700.0,1400.0,730.0,670.0,590.0,330.0,260.0,subzone,Flora Drive,Pasir Ris
+Loyang East,2140.0,1060.0,1080.0,1590.0,800.0,790.0,100.0,50.0,50.0,280.0,140.0,140.0,180.0,80.0,100.0,subzone,Loyang East,Pasir Ris
+Loyang West,220.0,100.0,120.0,190.0,80.0,100.0,10.0,10.0,10.0,10.0,,,10.0,,,subzone,Loyang West,Pasir Ris
+Pasir Ris Central,32240.0,15750.0,16490.0,23710.0,11510.0,12190.0,4700.0,2290.0,2420.0,2630.0,1380.0,1250.0,1200.0,570.0,630.0,subzone,Pasir Ris Central,Pasir Ris
+Pasir Ris Drive,54420.0,26940.0,27480.0,32300.0,15900.0,16400.0,15080.0,7520.0,7560.0,4840.0,2470.0,2370.0,2200.0,1040.0,1160.0,subzone,Pasir Ris Drive,Pasir Ris
+Pasir Ris Park,7620.0,3760.0,3860.0,5960.0,2900.0,3060.0,790.0,400.0,390.0,560.0,290.0,270.0,320.0,180.0,150.0,subzone,Pasir Ris Park,Pasir Ris
+Pasir Ris Wafer Fab Park,10.0,,,,,,,,,,,,,,,subzone,Pasir Ris Wafer Fab Park,Pasir Ris
+Pasir Ris West,35790.0,17720.0,18070.0,23710.0,11700.0,12010.0,7330.0,3660.0,3670.0,3410.0,1740.0,1680.0,1340.0,630.0,710.0,subzone,Pasir Ris West,Pasir Ris
+Paya Lebar - Total,40.0,,,,,,,,,,,,,,,planning_area,Paya Lebar,Paya Lebar
+Airport Road,,,,,,,,,,,,,,,,subzone,Airport Road,Paya Lebar
+Paya Lebar East,10.0,,,,,,,,,,,,,,,subzone,Paya Lebar East,Paya Lebar
+Paya Lebar North,30.0,,,,,,,,,,,,,,,subzone,Paya Lebar North,Paya Lebar
+Paya Lebar West,,,,,,,,,,,,,,,,subzone,Paya Lebar West,Paya Lebar
+Plab,,,,,,,,,,,,,,,,subzone,Plab,Paya Lebar
+Pioneer - Total,80.0,,,,,,,,,,,,,,,planning_area,Pioneer,Pioneer
+Benoi Sector,10.0,,,,,,,,,,,,,,,subzone,Benoi Sector,Pioneer
+Gul Basin,10.0,,,,,,,,,,,,,,,subzone,Gul Basin,Pioneer
+Gul Circle,20.0,,,,,,,,,,,,,,,subzone,Gul Circle,Pioneer
+Joo Koon,30.0,,,,,,,,,,,,,,,subzone,Joo Koon,Pioneer
+Pioneer Sector,,,,,,,,,,,,,,,,subzone,Pioneer Sector,Pioneer
+Punggol - Total,174450.0,85940.0,88520.0,131940.0,65180.0,66760.0,26050.0,12820.0,13230.0,12190.0,6250.0,5940.0,4270.0,1680.0,2590.0,planning_area,Punggol,Punggol
+Coney Island,,,,,,,,,,,,,,,,subzone,Coney Island,Punggol
+Matilda,52200.0,25610.0,26590.0,39660.0,19600.0,20060.0,7970.0,3860.0,4120.0,3360.0,1700.0,1660.0,1210.0,460.0,750.0,subzone,Matilda,Punggol
+Northshore,460.0,230.0,220.0,370.0,190.0,180.0,30.0,20.0,20.0,30.0,20.0,10.0,20.0,10.0,10.0,subzone,Northshore,Punggol
+Punggol Canal,,,,,,,,,,,,,,,,subzone,Punggol Canal,Punggol
+Punggol Field,48960.0,24120.0,24840.0,37330.0,18370.0,18960.0,6010.0,2950.0,3060.0,4270.0,2210.0,2060.0,1350.0,590.0,760.0,subzone,Punggol Field,Punggol
+Punggol Town Centre,22260.0,10920.0,11340.0,17040.0,8380.0,8660.0,3510.0,1750.0,1760.0,1140.0,570.0,570.0,580.0,220.0,350.0,subzone,Punggol Town Centre,Punggol
+Waterway East,50580.0,25050.0,25530.0,37530.0,18640.0,18900.0,8530.0,4250.0,4280.0,3390.0,1770.0,1630.0,1120.0,400.0,720.0,subzone,Waterway East,Punggol
+Queenstown - Total,95930.0,45120.0,50820.0,78220.0,36370.0,41850.0,6940.0,3390.0,3550.0,7060.0,3600.0,3470.0,3710.0,1760.0,1950.0,planning_area,Queenstown,Queenstown
+Commonwealth,7000.0,3230.0,3770.0,5250.0,2400.0,2850.0,1000.0,490.0,510.0,460.0,240.0,230.0,290.0,110.0,180.0,subzone,Commonwealth,Queenstown
+Dover,11080.0,5260.0,5820.0,9260.0,4340.0,4920.0,470.0,240.0,240.0,940.0,480.0,450.0,410.0,200.0,210.0,subzone,Dover,Queenstown
+Ghim Moh,13850.0,6470.0,7380.0,11170.0,5170.0,6010.0,1460.0,710.0,750.0,840.0,420.0,430.0,370.0,180.0,190.0,subzone,Ghim Moh,Queenstown
+Holland Drive,12680.0,5760.0,6920.0,10630.0,4770.0,5870.0,960.0,440.0,520.0,620.0,320.0,300.0,460.0,230.0,230.0,subzone,Holland Drive,Queenstown
+Kent Ridge,80.0,,,,,,,,,,,,,,,subzone,Kent Ridge,Queenstown
+Margaret Drive,16090.0,7710.0,8380.0,13770.0,6540.0,7230.0,660.0,350.0,310.0,1110.0,570.0,540.0,550.0,260.0,300.0,subzone,Margaret Drive,Queenstown
+Mei Chin,15570.0,7350.0,8210.0,12180.0,5690.0,6490.0,1340.0,670.0,670.0,1640.0,810.0,830.0,410.0,190.0,230.0,subzone,Mei Chin,Queenstown
+National University Of S'pore,240.0,70.0,170.0,220.0,60.0,160.0,,,,10.0,,,20.0,10.0,10.0,subzone,National University Of S'pore,Queenstown
+One North,720.0,350.0,370.0,460.0,220.0,250.0,,,,50.0,30.0,20.0,200.0,100.0,100.0,subzone,One North,Queenstown
+Pasir Panjang 1,4510.0,2200.0,2300.0,3890.0,1880.0,2010.0,40.0,20.0,20.0,270.0,150.0,130.0,300.0,160.0,140.0,subzone,Pasir Panjang 1,Queenstown
+Pasir Panjang 2,3060.0,1490.0,1570.0,2520.0,1200.0,1310.0,60.0,40.0,30.0,220.0,120.0,100.0,260.0,140.0,130.0,subzone,Pasir Panjang 2,Queenstown
+Port,120.0,60.0,60.0,110.0,60.0,60.0,,,,10.0,,10.0,,,,subzone,Port,Queenstown
+Queensway,270.0,130.0,140.0,200.0,90.0,110.0,10.0,,10.0,20.0,20.0,10.0,30.0,20.0,10.0,subzone,Queensway,Queenstown
+Singapore Polytechnic,100.0,,,,,,,,,,,,,,,subzone,Singapore Polytechnic,Queenstown
+Tanglin Halt,10590.0,4960.0,5630.0,8470.0,3920.0,4550.0,920.0,450.0,470.0,850.0,430.0,410.0,350.0,150.0,200.0,subzone,Tanglin Halt,Queenstown
+River Valley - Total,10070.0,4620.0,5450.0,7020.0,3170.0,3860.0,90.0,30.0,60.0,1500.0,710.0,790.0,1460.0,720.0,740.0,planning_area,River Valley,River Valley
+Institution Hill,3150.0,1500.0,1650.0,2210.0,1040.0,1170.0,20.0,10.0,20.0,490.0,240.0,250.0,430.0,210.0,210.0,subzone,Institution Hill,River Valley
+Leonie Hill,3120.0,1430.0,1690.0,2030.0,920.0,1110.0,30.0,10.0,20.0,600.0,280.0,330.0,460.0,230.0,240.0,subzone,Leonie Hill,River Valley
+One Tree Hill,2070.0,910.0,1150.0,1450.0,630.0,830.0,10.0,,10.0,290.0,130.0,160.0,310.0,150.0,160.0,subzone,One Tree Hill,River Valley
+Oxley,1490.0,670.0,820.0,1160.0,500.0,660.0,20.0,10.0,10.0,80.0,40.0,40.0,220.0,110.0,110.0,subzone,Oxley,River Valley
+Paterson,240.0,110.0,130.0,170.0,70.0,100.0,10.0,,,30.0,20.0,10.0,40.0,20.0,20.0,subzone,Paterson,River Valley
+Rochor - Total,13120.0,6530.0,6590.0,9660.0,4660.0,5000.0,600.0,290.0,310.0,2390.0,1340.0,1040.0,480.0,240.0,240.0,planning_area,Rochor,Rochor
+Bencoolen,1310.0,620.0,690.0,970.0,450.0,520.0,40.0,20.0,20.0,250.0,120.0,130.0,50.0,20.0,30.0,subzone,Bencoolen,Rochor
+Farrer Park,2660.0,1350.0,1310.0,1860.0,920.0,940.0,70.0,30.0,40.0,680.0,390.0,290.0,60.0,20.0,40.0,subzone,Farrer Park,Rochor
+Kampong Glam,120.0,80.0,40.0,40.0,20.0,20.0,10.0,10.0,10.0,60.0,40.0,20.0,10.0,10.0,,subzone,Kampong Glam,Rochor
+Little India,3270.0,1680.0,1580.0,2410.0,1180.0,1230.0,40.0,20.0,20.0,780.0,460.0,320.0,40.0,20.0,20.0,subzone,Little India,Rochor
+Mackenzie,110.0,60.0,50.0,80.0,40.0,40.0,,,,10.0,10.0,10.0,10.0,10.0,,subzone,Mackenzie,Rochor
+Mount Emily,1630.0,770.0,860.0,1290.0,590.0,710.0,40.0,20.0,20.0,100.0,50.0,40.0,200.0,110.0,90.0,subzone,Mount Emily,Rochor
+Rochor Canal,,,,,,,,,,,,,,,,subzone,Rochor Canal,Rochor
+Selegie,210.0,110.0,100.0,130.0,70.0,60.0,,,,60.0,30.0,30.0,20.0,10.0,10.0,subzone,Selegie,Rochor
+Sungei Road,2050.0,1020.0,1030.0,1370.0,690.0,690.0,380.0,190.0,190.0,270.0,140.0,130.0,30.0,10.0,20.0,subzone,Sungei Road,Rochor
+Victoria,1760.0,840.0,920.0,1510.0,710.0,800.0,30.0,10.0,20.0,180.0,100.0,80.0,50.0,30.0,20.0,subzone,Victoria,Rochor
+Seletar - Total,300.0,140.0,160.0,190.0,90.0,100.0,10.0,,,30.0,20.0,20.0,70.0,30.0,40.0,planning_area,Seletar,Seletar
+Pulau Punggol Barat,,,,,,,,,,,,,,,,subzone,Pulau Punggol Barat,Seletar
+Pulau Punggol Timor,,,,,,,,,,,,,,,,subzone,Pulau Punggol Timor,Seletar
+Seletar,280.0,130.0,150.0,180.0,80.0,100.0,10.0,,,30.0,20.0,10.0,70.0,30.0,40.0,subzone,Seletar,Seletar
+Seletar Aerospace Park,20.0,,,,,,,,,,,,,,,subzone,Seletar Aerospace Park,Seletar
+Sembawang - Total,102640.0,50710.0,51930.0,72910.0,36000.0,36920.0,16680.0,8160.0,8520.0,9360.0,4860.0,4500.0,3680.0,1690.0,1990.0,planning_area,Sembawang,Sembawang
+Admiralty,13920.0,6860.0,7060.0,9780.0,4830.0,4950.0,2250.0,1090.0,1160.0,1350.0,680.0,670.0,550.0,270.0,280.0,subzone,Admiralty,Sembawang
+Sembawang Central,34800.0,17060.0,17740.0,25130.0,12270.0,12860.0,5180.0,2550.0,2630.0,3180.0,1620.0,1560.0,1310.0,620.0,690.0,subzone,Sembawang Central,Sembawang
+Sembawang East,17340.0,8550.0,8790.0,10850.0,5430.0,5420.0,4610.0,2230.0,2380.0,1480.0,750.0,720.0,400.0,140.0,270.0,subzone,Sembawang East,Sembawang
+Sembawang North,25540.0,12750.0,12790.0,17670.0,8760.0,8900.0,4220.0,2090.0,2120.0,2510.0,1360.0,1150.0,1150.0,530.0,610.0,subzone,Sembawang North,Sembawang
+Sembawang Springs,9090.0,4480.0,4610.0,7950.0,3930.0,4020.0,340.0,150.0,190.0,590.0,300.0,280.0,220.0,100.0,120.0,subzone,Sembawang Springs,Sembawang
+Sembawang Straits,1910.0,980.0,930.0,1510.0,760.0,750.0,90.0,40.0,50.0,260.0,150.0,110.0,60.0,30.0,20.0,subzone,Sembawang Straits,Sembawang
+Senoko North,10.0,,,,,,,,,,,,,,,subzone,Senoko North,Sembawang
+Senoko South,30.0,,,,,,,,,,,,,,,subzone,Senoko South,Sembawang
+The Wharves,,,,,,,,,,,,,,,,subzone,The Wharves,Sembawang
+Sengkang - Total,249370.0,122480.0,126890.0,192870.0,94710.0,98170.0,28560.0,14120.0,14440.0,21690.0,11010.0,10680.0,6240.0,2640.0,3600.0,planning_area,Sengkang,Sengkang
+Anchorvale,48120.0,23700.0,24420.0,37360.0,18350.0,19010.0,5370.0,2650.0,2720.0,4190.0,2170.0,2030.0,1200.0,530.0,670.0,subzone,Anchorvale,Sengkang
+Compassvale,20960.0,10170.0,10790.0,17830.0,8630.0,9200.0,1440.0,690.0,750.0,1290.0,670.0,620.0,400.0,180.0,220.0,subzone,Compassvale,Sengkang
+Fernvale,58800.0,28860.0,29950.0,45220.0,22190.0,23030.0,8140.0,4070.0,4080.0,3970.0,2030.0,1940.0,1470.0,570.0,900.0,subzone,Fernvale,Sengkang
+Lorong Halus North,,,,,,,,,,,,,,,,subzone,Lorong Halus North,Sengkang
+Rivervale,59700.0,29460.0,30230.0,44390.0,21990.0,22410.0,7200.0,3560.0,3650.0,6490.0,3220.0,3270.0,1610.0,700.0,910.0,subzone,Rivervale,Sengkang
+Sengkang Town Centre,61790.0,30290.0,31500.0,48060.0,23540.0,24520.0,6420.0,3160.0,3250.0,5750.0,2930.0,2830.0,1560.0,660.0,900.0,subzone,Sengkang Town Centre,Sengkang
+Sengkang West,10.0,,,,,,,,,,,,,,,subzone,Sengkang West,Sengkang
+Serangoon - Total,116900.0,56370.0,60530.0,98770.0,47500.0,51270.0,4860.0,2410.0,2450.0,10250.0,5100.0,5150.0,3020.0,1350.0,1660.0,planning_area,Serangoon,Serangoon
+Lorong Chuan,8490.0,4090.0,4400.0,7640.0,3690.0,3950.0,50.0,20.0,30.0,470.0,230.0,240.0,320.0,150.0,180.0,subzone,Lorong Chuan,Serangoon
+Seletar Hills,14700.0,7250.0,7460.0,13060.0,6430.0,6630.0,160.0,80.0,90.0,1030.0,530.0,500.0,460.0,210.0,240.0,subzone,Seletar Hills,Serangoon
+Serangoon Central,24760.0,11800.0,12960.0,20750.0,9830.0,10920.0,1030.0,530.0,500.0,2420.0,1200.0,1220.0,560.0,240.0,320.0,subzone,Serangoon Central,Serangoon
+Serangoon Garden,36080.0,17220.0,18860.0,29920.0,14230.0,15690.0,1950.0,970.0,990.0,3180.0,1560.0,1620.0,1030.0,470.0,570.0,subzone,Serangoon Garden,Serangoon
+Serangoon North,15940.0,7840.0,8100.0,12580.0,6190.0,6380.0,1160.0,570.0,590.0,1910.0,960.0,950.0,300.0,120.0,180.0,subzone,Serangoon North,Serangoon
+Serangoon North Ind Estate,10.0,,,,,,,,,,,,,,,subzone,Serangoon North Ind Estate,Serangoon
+Upper Paya Lebar,16920.0,8160.0,8760.0,14820.0,7130.0,7690.0,510.0,250.0,260.0,1250.0,620.0,630.0,340.0,160.0,170.0,subzone,Upper Paya Lebar,Serangoon
+Simpang - Total,,,,,,,,,,,,,,,,planning_area,Simpang,Simpang
+Pulau Seletar,,,,,,,,,,,,,,,,subzone,Pulau Seletar,Simpang
+Simpang North,,,,,,,,,,,,,,,,subzone,Simpang North,Simpang
+Simpang South,,,,,,,,,,,,,,,,subzone,Simpang South,Simpang
+Tanjong Irau,,,,,,,,,,,,,,,,subzone,Tanjong Irau,Simpang
+Singapore River - Total,3260.0,1540.0,1730.0,2300.0,1030.0,1270.0,20.0,10.0,10.0,300.0,150.0,150.0,640.0,340.0,300.0,planning_area,Singapore River,Singapore River
+Boat Quay,130.0,70.0,60.0,90.0,50.0,50.0,,,,10.0,10.0,10.0,30.0,20.0,10.0,subzone,Boat Quay,Singapore River
+Clarke Quay,130.0,70.0,50.0,80.0,40.0,40.0,,,,10.0,10.0,,40.0,20.0,10.0,subzone,Clarke Quay,Singapore River
+Robertson Quay,3010.0,1390.0,1610.0,2130.0,950.0,1190.0,20.0,10.0,10.0,280.0,140.0,140.0,570.0,300.0,280.0,subzone,Robertson Quay,Singapore River
+Southern Islands - Total,1940.0,920.0,1020.0,1010.0,450.0,560.0,30.0,10.0,20.0,200.0,100.0,100.0,700.0,370.0,330.0,planning_area,Southern Islands,Southern Islands
+Sentosa,1940.0,920.0,1020.0,1010.0,450.0,560.0,30.0,10.0,20.0,200.0,100.0,100.0,700.0,370.0,330.0,subzone,Sentosa,Southern Islands
+Southern Group,,,,,,,,,,,,,,,,subzone,Southern Group,Southern Islands
+Straits View - Total,,,,,,,,,,,,,,,,planning_area,Straits View,Straits View
+Straits View,,,,,,,,,,,,,,,,subzone,Straits View,Straits View
+Sungei Kadut - Total,750.0,380.0,370.0,640.0,320.0,310.0,,,,90.0,50.0,40.0,20.0,10.0,10.0,planning_area,Sungei Kadut,Sungei Kadut
+Gali Batu,30.0,,,,,,,,,,,,,,,subzone,Gali Batu,Sungei Kadut
+Kranji,10.0,,,,,,,,,,,,,,,subzone,Kranji,Sungei Kadut
+Pang Sua,20.0,,,,,,,,,,,,,,,subzone,Pang Sua,Sungei Kadut
+Reservoir View,20.0,,,,,,,,,,,,,,,subzone,Reservoir View,Sungei Kadut
+Turf Club,670.0,330.0,340.0,570.0,290.0,290.0,,,,80.0,40.0,40.0,20.0,10.0,10.0,subzone,Turf Club,Sungei Kadut
+Tampines - Total,259900.0,127000.0,132900.0,173660.0,84300.0,89360.0,56570.0,27940.0,28630.0,21700.0,11160.0,10550.0,7970.0,3610.0,4360.0,planning_area,Tampines,Tampines
+Simei,39450.0,19050.0,20400.0,28460.0,13610.0,14850.0,4530.0,2230.0,2310.0,4810.0,2450.0,2370.0,1640.0,770.0,880.0,subzone,Simei,Tampines
+Tampines East,130980.0,63960.0,67010.0,84190.0,40920.0,43280.0,32470.0,15960.0,16510.0,10320.0,5320.0,5000.0,3990.0,1770.0,2220.0,subzone,Tampines East,Tampines
+Tampines North,8040.0,3950.0,4090.0,5240.0,2570.0,2670.0,2200.0,1100.0,1100.0,400.0,200.0,190.0,210.0,80.0,130.0,subzone,Tampines North,Tampines
+Tampines West,79670.0,39150.0,40510.0,54290.0,26470.0,27820.0,17290.0,8630.0,8660.0,6050.0,3120.0,2930.0,2030.0,940.0,1100.0,subzone,Tampines West,Tampines
+Xilin,1760.0,890.0,880.0,1470.0,730.0,750.0,70.0,40.0,40.0,120.0,70.0,50.0,90.0,50.0,40.0,subzone,Xilin,Tampines
+Tanglin - Total,21810.0,10100.0,11700.0,16270.0,7370.0,8900.0,240.0,100.0,140.0,2200.0,1080.0,1120.0,3090.0,1550.0,1540.0,planning_area,Tanglin,Tanglin
+Chatsworth,6890.0,3190.0,3690.0,4770.0,2160.0,2610.0,70.0,30.0,40.0,1020.0,500.0,520.0,1030.0,510.0,520.0,subzone,Chatsworth,Tanglin
+Nassim,9520.0,4410.0,5110.0,7460.0,3360.0,4100.0,110.0,50.0,60.0,710.0,370.0,350.0,1240.0,640.0,600.0,subzone,Nassim,Tanglin
+Ridout,1520.0,690.0,830.0,1090.0,500.0,600.0,10.0,,,160.0,70.0,80.0,270.0,120.0,150.0,subzone,Ridout,Tanglin
+Tyersall,3880.0,1810.0,2070.0,2960.0,1360.0,1600.0,60.0,20.0,30.0,320.0,150.0,170.0,550.0,280.0,270.0,subzone,Tyersall,Tanglin
+Tengah - Total,10.0,,,,,,,,,,,,,,,planning_area,Tengah,Tengah
+Brickland,,,,,,,,,,,,,,,,subzone,Brickland,Tengah
+Forest Hill,10.0,,,,,,,,,,,,,,,subzone,Forest Hill,Tengah
+Garden,,,,,,,,,,,,,,,,subzone,Garden,Tengah
+Park,,,,,,,,,,,,,,,,subzone,Park,Tengah
+Plantation,,,,,,,,,,,,,,,,subzone,Plantation,Tengah
+Tengah Industrial Estate,,,,,,,,,,,,,,,,subzone,Tengah Industrial Estate,Tengah
+Toa Payoh - Total,121850.0,57890.0,63960.0,101320.0,47830.0,53490.0,8410.0,4160.0,4250.0,8590.0,4350.0,4240.0,3530.0,1550.0,1970.0,planning_area,Toa Payoh,Toa Payoh
+Bidadari,,,,,,,,,,,,,,,,subzone,Bidadari,Toa Payoh
+Boon Teck,14660.0,7210.0,7450.0,11280.0,5510.0,5770.0,2030.0,1020.0,1010.0,1020.0,540.0,480.0,340.0,150.0,200.0,subzone,Boon Teck,Toa Payoh
+Braddell,9810.0,4590.0,5210.0,7650.0,3530.0,4120.0,1130.0,560.0,570.0,690.0,340.0,350.0,330.0,160.0,170.0,subzone,Braddell,Toa Payoh
+Joo Seng,8150.0,4030.0,4120.0,7110.0,3510.0,3610.0,250.0,130.0,120.0,590.0,300.0,290.0,210.0,100.0,110.0,subzone,Joo Seng,Toa Payoh
+Kim Keat,7960.0,3840.0,4130.0,6470.0,3120.0,3350.0,540.0,260.0,280.0,780.0,380.0,400.0,180.0,80.0,110.0,subzone,Kim Keat,Toa Payoh
+Lorong 8 Toa Payoh,7160.0,3420.0,3730.0,5880.0,2820.0,3060.0,610.0,290.0,320.0,480.0,240.0,240.0,190.0,70.0,120.0,subzone,Lorong 8 Toa Payoh,Toa Payoh
+Pei Chun,10360.0,4940.0,5420.0,8620.0,4120.0,4500.0,820.0,380.0,450.0,610.0,320.0,290.0,310.0,120.0,180.0,subzone,Pei Chun,Toa Payoh
+Potong Pasir,11720.0,5660.0,6060.0,9750.0,4650.0,5100.0,520.0,270.0,260.0,1250.0,650.0,600.0,200.0,90.0,110.0,subzone,Potong Pasir,Toa Payoh
+Sennett,7190.0,3480.0,3720.0,6510.0,3130.0,3380.0,120.0,60.0,70.0,380.0,200.0,180.0,190.0,90.0,90.0,subzone,Sennett,Toa Payoh
+Toa Payoh Central,28020.0,12960.0,15070.0,23620.0,10840.0,12780.0,1740.0,880.0,860.0,1780.0,850.0,930.0,870.0,380.0,490.0,subzone,Toa Payoh Central,Toa Payoh
+Toa Payoh West,14360.0,6570.0,7780.0,12240.0,5540.0,6700.0,640.0,320.0,320.0,870.0,460.0,410.0,610.0,260.0,350.0,subzone,Toa Payoh West,Toa Payoh
+Woodleigh,2450.0,1200.0,1260.0,2190.0,1060.0,1120.0,10.0,10.0,10.0,140.0,70.0,70.0,110.0,50.0,60.0,subzone,Woodleigh,Toa Payoh
+Tuas - Total,70.0,,,,,,,,,,,,,,,planning_area,Tuas,Tuas
+Tengeh,,,,,,,,,,,,,,,,subzone,Tengeh,Tuas
+Tuas Bay,10.0,,,,,,,,,,,,,,,subzone,Tuas Bay,Tuas
+Tuas North,30.0,,,,,,,,,,,,,,,subzone,Tuas North,Tuas
+Tuas Promenade,10.0,,,,,,,,,,,,,,,subzone,Tuas Promenade,Tuas
+Tuas View,10.0,,,,,,,,,,,,,,,subzone,Tuas View,Tuas
+Tuas View Extension,10.0,,,,,,,,,,,,,,,subzone,Tuas View Extension,Tuas
+Western Islands - Total,10.0,,,,,,,,,,,,,,,planning_area,Western Islands,Western Islands
+Jurong Island And Bukom,10.0,,,,,,,,,,,,,,,subzone,Jurong Island And Bukom,Western Islands
+Semakau,,,,,,,,,,,,,,,,subzone,Semakau,Western Islands
+Sudong,,,,,,,,,,,,,,,,subzone,Sudong,Western Islands
+Western Water Catchment - Total,640.0,290.0,350.0,510.0,220.0,290.0,,,,70.0,40.0,30.0,60.0,30.0,30.0,planning_area,Western Water Catchment,Western Water Catchment
+Bahar,,,,,,,,,,,,,,,,subzone,Bahar,Western Water Catchment
+Cleantech,,,,,,,,,,,,,,,,subzone,Cleantech,Western Water Catchment
+Murai,640.0,290.0,350.0,510.0,220.0,290.0,,,,70.0,40.0,30.0,60.0,30.0,30.0,subzone,Murai,Western Water Catchment
+Woodlands - Total,255130.0,127990.0,127150.0,155360.0,77720.0,77640.0,65480.0,32900.0,32580.0,28240.0,14610.0,13620.0,6060.0,2750.0,3310.0,planning_area,Woodlands,Woodlands
+Greenwood Park,40.0,,,,,,,,,,,,,,,subzone,Greenwood Park,Woodlands
+Midview,35270.0,17660.0,17610.0,20870.0,10400.0,10470.0,9910.0,4940.0,4970.0,3760.0,1990.0,1780.0,740.0,330.0,400.0,subzone,Midview,Woodlands
+North Coast,12100.0,6130.0,5970.0,6840.0,3490.0,3350.0,3450.0,1720.0,1730.0,1600.0,820.0,770.0,220.0,100.0,120.0,subzone,North Coast,Woodlands
+Senoko West,20.0,,,,,,,,,,,,,,,subzone,Senoko West,Woodlands
+Woodgrove,33790.0,16870.0,16920.0,21440.0,10590.0,10840.0,7870.0,3980.0,3890.0,3660.0,1920.0,1740.0,830.0,380.0,450.0,subzone,Woodgrove,Woodlands
+Woodlands East,98980.0,49490.0,49500.0,60510.0,30190.0,30320.0,24560.0,12260.0,12290.0,11420.0,5880.0,5530.0,2500.0,1150.0,1350.0,subzone,Woodlands East,Woodlands
+Woodlands Regional Centre,10.0,,,,,,,,,,,,,,,subzone,Woodlands Regional Centre,Woodlands
+Woodlands South,41000.0,20540.0,20470.0,25940.0,12900.0,13040.0,9850.0,4990.0,4870.0,4130.0,2130.0,2000.0,1080.0,520.0,560.0,subzone,Woodlands South,Woodlands
+Woodlands West,33910.0,17260.0,16650.0,19730.0,10120.0,9600.0,9840.0,5010.0,4830.0,3660.0,1860.0,1800.0,680.0,270.0,420.0,subzone,Woodlands West,Woodlands
+Yishun - Total,221610.0,109470.0,112140.0,153160.0,75500.0,77660.0,40390.0,20140.0,20250.0,21950.0,11230.0,10720.0,6110.0,2600.0,3510.0,planning_area,Yishun,Yishun
+Khatib,10250.0,4980.0,5270.0,7540.0,3660.0,3880.0,1430.0,700.0,730.0,980.0,490.0,490.0,300.0,130.0,170.0,subzone,Khatib,Yishun
+Lower Seletar,18660.0,9240.0,9420.0,12890.0,6370.0,6520.0,3780.0,1910.0,1870.0,1510.0,770.0,740.0,480.0,190.0,290.0,subzone,Lower Seletar,Yishun
+Nee Soon,890.0,440.0,450.0,780.0,380.0,400.0,20.0,10.0,10.0,60.0,30.0,30.0,30.0,20.0,10.0,subzone,Nee Soon,Yishun
+Northland,28000.0,13930.0,14070.0,17750.0,8820.0,8940.0,6290.0,3130.0,3160.0,3000.0,1530.0,1470.0,970.0,460.0,510.0,subzone,Northland,Yishun
+Springleaf,4370.0,2180.0,2190.0,4010.0,2000.0,2010.0,40.0,20.0,20.0,220.0,110.0,100.0,110.0,50.0,60.0,subzone,Springleaf,Yishun
+Yishun Central,2620.0,1290.0,1340.0,2300.0,1130.0,1170.0,140.0,70.0,80.0,140.0,70.0,70.0,50.0,20.0,30.0,subzone,Yishun Central,Yishun
+Yishun East,60670.0,30030.0,30640.0,40290.0,19960.0,20330.0,12670.0,6260.0,6410.0,6110.0,3160.0,2940.0,1600.0,650.0,950.0,subzone,Yishun East,Yishun
+Yishun South,42240.0,20670.0,21580.0,30680.0,15000.0,15680.0,6230.0,3100.0,3130.0,4230.0,2130.0,2090.0,1110.0,440.0,670.0,subzone,Yishun South,Yishun
+Yishun West,53910.0,26720.0,27190.0,36930.0,18190.0,18730.0,9800.0,4950.0,4850.0,5720.0,2940.0,2780.0,1460.0,640.0,830.0,subzone,Yishun West,Yishun

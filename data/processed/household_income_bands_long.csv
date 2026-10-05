@@ -1,0 +1,559 @@
+planning_area,income_band,households
+Ang Mo Kio,Below_1_000,1563
+Bedok,Below_1_000,2203
+Bishan,Below_1_000,508
+Bukit Batok,Below_1_000,847
+Bukit Merah,Below_1_000,1899
+Bukit Panjang,Below_1_000,656
+Bukit Timah,Below_1_000,294
+Choa Chu Kang,Below_1_000,893
+Clementi,Below_1_000,804
+Downtown Core,Below_1_000,21
+Geylang,Below_1_000,1030
+Hougang,Below_1_000,1475
+Jurong East,Below_1_000,550
+Jurong West,Below_1_000,1399
+Kallang,Below_1_000,1355
+Marine Parade,Below_1_000,339
+Novena,Below_1_000,397
+Outram,Below_1_000,393
+Pasir Ris,Below_1_000,587
+Punggol,Below_1_000,877
+Queenstown,Below_1_000,774
+River Valley,Below_1_000,27
+Sembawang,Below_1_000,586
+Sengkang,Below_1_000,1276
+Serangoon,Below_1_000,496
+Tampines,Below_1_000,1389
+Tanglin,Below_1_000,71
+Toa Payoh,Below_1_000,1296
+Woodlands,Below_1_000,1293
+Yishun,Below_1_000,1551
+Others,Below_1_000,139
+Ang Mo Kio,1_000_1_999,4228
+Bedok,1_000_1_999,5278
+Bishan,1_000_1_999,983
+Bukit Batok,1_000_1_999,3328
+Bukit Merah,1_000_1_999,4583
+Bukit Panjang,1_000_1_999,1664
+Bukit Timah,1_000_1_999,364
+Choa Chu Kang,1_000_1_999,2065
+Clementi,1_000_1_999,1656
+Downtown Core,1_000_1_999,22
+Geylang,1_000_1_999,2826
+Hougang,1_000_1_999,3992
+Jurong East,1_000_1_999,1642
+Jurong West,1_000_1_999,4460
+Kallang,1_000_1_999,3127
+Marine Parade,1_000_1_999,683
+Novena,1_000_1_999,792
+Outram,1_000_1_999,813
+Pasir Ris,1_000_1_999,1198
+Punggol,1_000_1_999,2397
+Queenstown,1_000_1_999,2398
+River Valley,1_000_1_999,80
+Sembawang,1_000_1_999,1395
+Sengkang,1_000_1_999,3166
+Serangoon,1_000_1_999,1444
+Tampines,1_000_1_999,4007
+Tanglin,1_000_1_999,84
+Toa Payoh,1_000_1_999,2987
+Woodlands,1_000_1_999,3913
+Yishun,1_000_1_999,4455
+Others,1_000_1_999,489
+Ang Mo Kio,2_000_2_999,3557
+Bedok,2_000_2_999,5220
+Bishan,2_000_2_999,910
+Bukit Batok,2_000_2_999,3006
+Bukit Merah,2_000_2_999,3464
+Bukit Panjang,2_000_2_999,2411
+Bukit Timah,2_000_2_999,455
+Choa Chu Kang,2_000_2_999,2776
+Clementi,2_000_2_999,1508
+Downtown Core,2_000_2_999,32
+Geylang,2_000_2_999,2849
+Hougang,2_000_2_999,4459
+Jurong East,2_000_2_999,1309
+Jurong West,2_000_2_999,4042
+Kallang,2_000_2_999,2379
+Marine Parade,2_000_2_999,647
+Novena,2_000_2_999,838
+Outram,2_000_2_999,504
+Pasir Ris,2_000_2_999,1398
+Punggol,2_000_2_999,2418
+Queenstown,2_000_2_999,1717
+River Valley,2_000_2_999,75
+Sembawang,2_000_2_999,1695
+Sengkang,2_000_2_999,3556
+Serangoon,2_000_2_999,1629
+Tampines,2_000_2_999,3907
+Tanglin,2_000_2_999,104
+Toa Payoh,2_000_2_999,2355
+Woodlands,2_000_2_999,4470
+Yishun,2_000_2_999,4912
+Others,2_000_2_999,576
+Ang Mo Kio,3_000_3_999,4035
+Bedok,3_000_3_999,5515
+Bishan,3_000_3_999,1252
+Bukit Batok,3_000_3_999,3160
+Bukit Merah,3_000_3_999,3463
+Bukit Panjang,3_000_3_999,2562
+Bukit Timah,3_000_3_999,349
+Choa Chu Kang,3_000_3_999,2860
+Clementi,3_000_3_999,1548
+Downtown Core,3_000_3_999,25
+Geylang,3_000_3_999,2671
+Hougang,3_000_3_999,4306
+Jurong East,3_000_3_999,1743
+Jurong West,3_000_3_999,4654
+Kallang,3_000_3_999,2041
+Marine Parade,3_000_3_999,741
+Novena,3_000_3_999,785
+Outram,3_000_3_999,392
+Pasir Ris,3_000_3_999,1701
+Punggol,3_000_3_999,3095
+Queenstown,3_000_3_999,1924
+River Valley,3_000_3_999,97
+Sembawang,3_000_3_999,2059
+Sengkang,3_000_3_999,3992
+Serangoon,3_000_3_999,1464
+Tampines,3_000_3_999,4611
+Tanglin,3_000_3_999,132
+Toa Payoh,3_000_3_999,2613
+Woodlands,3_000_3_999,5150
+Yishun,3_000_3_999,4836
+Others,3_000_3_999,398
+Ang Mo Kio,4_000_4_999,3355
+Bedok,4_000_4_999,4672
+Bishan,4_000_4_999,983
+Bukit Batok,4_000_4_999,3164
+Bukit Merah,4_000_4_999,2339
+Bukit Panjang,4_000_4_999,2496
+Bukit Timah,4_000_4_999,482
+Choa Chu Kang,4_000_4_999,3067
+Clementi,4_000_4_999,1419
+Downtown Core,4_000_4_999,47
+Geylang,4_000_4_999,2383
+Hougang,4_000_4_999,4039
+Jurong East,4_000_4_999,1635
+Jurong West,4_000_4_999,5268
+Kallang,4_000_4_999,1935
+Marine Parade,4_000_4_999,595
+Novena,4_000_4_999,726
+Outram,4_000_4_999,278
+Pasir Ris,4_000_4_999,1756
+Punggol,4_000_4_999,3060
+Queenstown,4_000_4_999,1673
+River Valley,4_000_4_999,59
+Sembawang,4_000_4_999,1958
+Sengkang,4_000_4_999,4292
+Serangoon,4_000_4_999,1415
+Tampines,4_000_4_999,4470
+Tanglin,4_000_4_999,127
+Toa Payoh,4_000_4_999,2503
+Woodlands,4_000_4_999,5015
+Yishun,4_000_4_999,4917
+Others,4_000_4_999,436
+Ang Mo Kio,5_000_5_999,3160
+Bedok,5_000_5_999,5050
+Bishan,5_000_5_999,1232
+Bukit Batok,5_000_5_999,3222
+Bukit Merah,5_000_5_999,2541
+Bukit Panjang,5_000_5_999,2626
+Bukit Timah,5_000_5_999,552
+Choa Chu Kang,5_000_5_999,3326
+Clementi,5_000_5_999,1593
+Downtown Core,5_000_5_999,48
+Geylang,5_000_5_999,2362
+Hougang,5_000_5_999,4139
+Jurong East,5_000_5_999,1737
+Jurong West,5_000_5_999,5273
+Kallang,5_000_5_999,1759
+Marine Parade,5_000_5_999,510
+Novena,5_000_5_999,721
+Outram,5_000_5_999,341
+Pasir Ris,5_000_5_999,2320
+Punggol,5_000_5_999,2974
+Queenstown,5_000_5_999,1515
+River Valley,5_000_5_999,80
+Sembawang,5_000_5_999,2097
+Sengkang,5_000_5_999,4286
+Serangoon,5_000_5_999,1769
+Tampines,5_000_5_999,4524
+Tanglin,5_000_5_999,191
+Toa Payoh,5_000_5_999,2078
+Woodlands,5_000_5_999,5568
+Yishun,5_000_5_999,5089
+Others,5_000_5_999,555
+Ang Mo Kio,6_000_6_999,2930
+Bedok,6_000_6_999,3898
+Bishan,6_000_6_999,1288
+Bukit Batok,6_000_6_999,2670
+Bukit Merah,6_000_6_999,2204
+Bukit Panjang,6_000_6_999,2543
+Bukit Timah,6_000_6_999,485
+Choa Chu Kang,6_000_6_999,3360
+Clementi,6_000_6_999,1535
+Downtown Core,6_000_6_999,45
+Geylang,6_000_6_999,2113
+Hougang,6_000_6_999,3907
+Jurong East,6_000_6_999,1591
+Jurong West,6_000_6_999,5349
+Kallang,6_000_6_999,1514
+Marine Parade,6_000_6_999,496
+Novena,6_000_6_999,568
+Outram,6_000_6_999,201
+Pasir Ris,6_000_6_999,2088
+Punggol,6_000_6_999,2988
+Queenstown,6_000_6_999,1355
+River Valley,6_000_6_999,90
+Sembawang,6_000_6_999,1924
+Sengkang,6_000_6_999,4742
+Serangoon,6_000_6_999,1578
+Tampines,6_000_6_999,4450
+Tanglin,6_000_6_999,109
+Toa Payoh,6_000_6_999,2094
+Woodlands,6_000_6_999,5199
+Yishun,6_000_6_999,4722
+Others,6_000_6_999,563
+Ang Mo Kio,7_000_7_999,2642
+Bedok,7_000_7_999,4251
+Bishan,7_000_7_999,1097
+Bukit Batok,7_000_7_999,2783
+Bukit Merah,7_000_7_999,2238
+Bukit Panjang,7_000_7_999,2438
+Bukit Timah,7_000_7_999,630
+Choa Chu Kang,7_000_7_999,3451
+Clementi,7_000_7_999,1362
+Downtown Core,7_000_7_999,20
+Geylang,7_000_7_999,1652
+Hougang,7_000_7_999,3469
+Jurong East,7_000_7_999,1403
+Jurong West,7_000_7_999,4861
+Kallang,7_000_7_999,1475
+Marine Parade,7_000_7_999,460
+Novena,7_000_7_999,587
+Outram,7_000_7_999,235
+Pasir Ris,7_000_7_999,2229
+Punggol,7_000_7_999,3256
+Queenstown,7_000_7_999,1304
+River Valley,7_000_7_999,92
+Sembawang,7_000_7_999,1940
+Sengkang,7_000_7_999,4359
+Serangoon,7_000_7_999,1776
+Tampines,7_000_7_999,4569
+Tanglin,7_000_7_999,155
+Toa Payoh,7_000_7_999,1749
+Woodlands,7_000_7_999,5039
+Yishun,7_000_7_999,4188
+Others,7_000_7_999,256
+Ang Mo Kio,8_000_8_999,2253
+Bedok,8_000_8_999,3360
+Bishan,8_000_8_999,1040
+Bukit Batok,8_000_8_999,2751
+Bukit Merah,8_000_8_999,1828
+Bukit Panjang,8_000_8_999,2536
+Bukit Timah,8_000_8_999,561
+Choa Chu Kang,8_000_8_999,3261
+Clementi,8_000_8_999,1215
+Downtown Core,8_000_8_999,49
+Geylang,8_000_8_999,1622
+Hougang,8_000_8_999,4147
+Jurong East,8_000_8_999,1223
+Jurong West,8_000_8_999,4703
+Kallang,8_000_8_999,1305
+Marine Parade,8_000_8_999,578
+Novena,8_000_8_999,732
+Outram,8_000_8_999,220
+Pasir Ris,8_000_8_999,1965
+Punggol,8_000_8_999,3290
+Queenstown,8_000_8_999,1267
+River Valley,8_000_8_999,87
+Sembawang,8_000_8_999,1844
+Sengkang,8_000_8_999,4236
+Serangoon,8_000_8_999,1539
+Tampines,8_000_8_999,3810
+Tanglin,8_000_8_999,182
+Toa Payoh,8_000_8_999,1984
+Woodlands,8_000_8_999,4605
+Yishun,8_000_8_999,3897
+Others,8_000_8_999,510
+Ang Mo Kio,9_000_9_999,2307
+Bedok,9_000_9_999,3712
+Bishan,9_000_9_999,986
+Bukit Batok,9_000_9_999,2371
+Bukit Merah,9_000_9_999,1801
+Bukit Panjang,9_000_9_999,2039
+Bukit Timah,9_000_9_999,503
+Choa Chu Kang,9_000_9_999,3095
+Clementi,9_000_9_999,1105
+Downtown Core,9_000_9_999,47
+Geylang,9_000_9_999,1616
+Hougang,9_000_9_999,3465
+Jurong East,9_000_9_999,1073
+Jurong West,9_000_9_999,4323
+Kallang,9_000_9_999,1345
+Marine Parade,9_000_9_999,439
+Novena,9_000_9_999,571
+Outram,9_000_9_999,213
+Pasir Ris,9_000_9_999,2489
+Punggol,9_000_9_999,3140
+Queenstown,9_000_9_999,1252
+River Valley,9_000_9_999,75
+Sembawang,9_000_9_999,1812
+Sengkang,9_000_9_999,4326
+Serangoon,9_000_9_999,1465
+Tampines,9_000_9_999,4037
+Tanglin,9_000_9_999,125
+Toa Payoh,9_000_9_999,1455
+Woodlands,9_000_9_999,4547
+Yishun,9_000_9_999,3430
+Others,9_000_9_999,375
+Ang Mo Kio,10_000_10_999,1923
+Bedok,10_000_10_999,3266
+Bishan,10_000_10_999,944
+Bukit Batok,10_000_10_999,2017
+Bukit Merah,10_000_10_999,1981
+Bukit Panjang,10_000_10_999,1736
+Bukit Timah,10_000_10_999,610
+Choa Chu Kang,10_000_10_999,2821
+Clementi,10_000_10_999,1194
+Downtown Core,10_000_10_999,53
+Geylang,10_000_10_999,1586
+Hougang,10_000_10_999,3056
+Jurong East,10_000_10_999,1011
+Jurong West,10_000_10_999,4121
+Kallang,10_000_10_999,1405
+Marine Parade,10_000_10_999,473
+Novena,10_000_10_999,541
+Outram,10_000_10_999,186
+Pasir Ris,10_000_10_999,2178
+Punggol,10_000_10_999,2916
+Queenstown,10_000_10_999,1144
+River Valley,10_000_10_999,74
+Sembawang,10_000_10_999,1632
+Sengkang,10_000_10_999,3842
+Serangoon,10_000_10_999,1337
+Tampines,10_000_10_999,3904
+Tanglin,10_000_10_999,183
+Toa Payoh,10_000_10_999,1474
+Woodlands,10_000_10_999,3481
+Yishun,10_000_10_999,3594
+Others,10_000_10_999,415
+Ang Mo Kio,11_000_11_999,1859
+Bedok,11_000_11_999,2685
+Bishan,11_000_11_999,970
+Bukit Batok,11_000_11_999,2197
+Bukit Merah,11_000_11_999,1704
+Bukit Panjang,11_000_11_999,1666
+Bukit Timah,11_000_11_999,530
+Choa Chu Kang,11_000_11_999,2581
+Clementi,11_000_11_999,1000
+Downtown Core,11_000_11_999,47
+Geylang,11_000_11_999,1398
+Hougang,11_000_11_999,2309
+Jurong East,11_000_11_999,945
+Jurong West,11_000_11_999,3514
+Kallang,11_000_11_999,1112
+Marine Parade,11_000_11_999,417
+Novena,11_000_11_999,501
+Outram,11_000_11_999,165
+Pasir Ris,11_000_11_999,2037
+Punggol,11_000_11_999,2598
+Queenstown,11_000_11_999,946
+River Valley,11_000_11_999,92
+Sembawang,11_000_11_999,1395
+Sengkang,11_000_11_999,3826
+Serangoon,11_000_11_999,1274
+Tampines,11_000_11_999,3382
+Tanglin,11_000_11_999,129
+Toa Payoh,11_000_11_999,1357
+Woodlands,11_000_11_999,3202
+Yishun,11_000_11_999,2961
+Others,11_000_11_999,352
+Ang Mo Kio,12_000_12_999,1332
+Bedok,12_000_12_999,2624
+Bishan,12_000_12_999,892
+Bukit Batok,12_000_12_999,1529
+Bukit Merah,12_000_12_999,1564
+Bukit Panjang,12_000_12_999,1661
+Bukit Timah,12_000_12_999,484
+Choa Chu Kang,12_000_12_999,2164
+Clementi,12_000_12_999,915
+Downtown Core,12_000_12_999,49
+Geylang,12_000_12_999,1056
+Hougang,12_000_12_999,2552
+Jurong East,12_000_12_999,812
+Jurong West,12_000_12_999,3240
+Kallang,12_000_12_999,1185
+Marine Parade,12_000_12_999,375
+Novena,12_000_12_999,404
+Outram,12_000_12_999,218
+Pasir Ris,12_000_12_999,2108
+Punggol,12_000_12_999,2487
+Queenstown,12_000_12_999,1156
+River Valley,12_000_12_999,79
+Sembawang,12_000_12_999,1218
+Sengkang,12_000_12_999,3096
+Serangoon,12_000_12_999,1045
+Tampines,12_000_12_999,3047
+Tanglin,12_000_12_999,157
+Toa Payoh,12_000_12_999,1247
+Woodlands,12_000_12_999,2799
+Yishun,12_000_12_999,2372
+Others,12_000_12_999,267
+Ang Mo Kio,13_000_13_999,1402
+Bedok,13_000_13_999,2515
+Bishan,13_000_13_999,862
+Bukit Batok,13_000_13_999,1544
+Bukit Merah,13_000_13_999,1340
+Bukit Panjang,13_000_13_999,1133
+Bukit Timah,13_000_13_999,459
+Choa Chu Kang,13_000_13_999,2075
+Clementi,13_000_13_999,917
+Downtown Core,13_000_13_999,47
+Geylang,13_000_13_999,922
+Hougang,13_000_13_999,2486
+Jurong East,13_000_13_999,688
+Jurong West,13_000_13_999,2981
+Kallang,13_000_13_999,948
+Marine Parade,13_000_13_999,294
+Novena,13_000_13_999,401
+Outram,13_000_13_999,136
+Pasir Ris,13_000_13_999,1593
+Punggol,13_000_13_999,2241
+Queenstown,13_000_13_999,906
+River Valley,13_000_13_999,54
+Sembawang,13_000_13_999,1339
+Sengkang,13_000_13_999,3019
+Serangoon,13_000_13_999,1061
+Tampines,13_000_13_999,2809
+Tanglin,13_000_13_999,142
+Toa Payoh,13_000_13_999,871
+Woodlands,13_000_13_999,2918
+Yishun,13_000_13_999,2265
+Others,13_000_13_999,106
+Ang Mo Kio,14_000_14_999,1222
+Bedok,14_000_14_999,1932
+Bishan,14_000_14_999,777
+Bukit Batok,14_000_14_999,1533
+Bukit Merah,14_000_14_999,1328
+Bukit Panjang,14_000_14_999,1135
+Bukit Timah,14_000_14_999,470
+Choa Chu Kang,14_000_14_999,2177
+Clementi,14_000_14_999,717
+Downtown Core,14_000_14_999,16
+Geylang,14_000_14_999,954
+Hougang,14_000_14_999,2129
+Jurong East,14_000_14_999,559
+Jurong West,14_000_14_999,2619
+Kallang,14_000_14_999,748
+Marine Parade,14_000_14_999,244
+Novena,14_000_14_999,299
+Outram,14_000_14_999,154
+Pasir Ris,14_000_14_999,1683
+Punggol,14_000_14_999,1772
+Queenstown,14_000_14_999,779
+River Valley,14_000_14_999,90
+Sembawang,14_000_14_999,1168
+Sengkang,14_000_14_999,2887
+Serangoon,14_000_14_999,1010
+Tampines,14_000_14_999,2351
+Tanglin,14_000_14_999,99
+Toa Payoh,14_000_14_999,893
+Woodlands,14_000_14_999,2183
+Yishun,14_000_14_999,1919
+Others,14_000_14_999,219
+Ang Mo Kio,15_000_17_499,2648
+Bedok,15_000_17_499,4056
+Bishan,15_000_17_499,1855
+Bukit Batok,15_000_17_499,2953
+Bukit Merah,15_000_17_499,3190
+Bukit Panjang,15_000_17_499,2574
+Bukit Timah,15_000_17_499,1248
+Choa Chu Kang,15_000_17_499,4052
+Clementi,15_000_17_499,1752
+Downtown Core,15_000_17_499,102
+Geylang,15_000_17_499,1764
+Hougang,15_000_17_499,3935
+Jurong East,15_000_17_499,1415
+Jurong West,15_000_17_499,5050
+Kallang,15_000_17_499,1843
+Marine Parade,15_000_17_499,792
+Novena,15_000_17_499,845
+Outram,15_000_17_499,327
+Pasir Ris,15_000_17_499,3387
+Punggol,15_000_17_499,4154
+Queenstown,15_000_17_499,2117
+River Valley,15_000_17_499,195
+Sembawang,15_000_17_499,1861
+Sengkang,15_000_17_499,6031
+Serangoon,15_000_17_499,2016
+Tampines,15_000_17_499,5335
+Tanglin,15_000_17_499,359
+Toa Payoh,15_000_17_499,2264
+Woodlands,15_000_17_499,4574
+Yishun,15_000_17_499,3720
+Others,15_000_17_499,625
+Ang Mo Kio,17_500_19_999,1815
+Bedok,17_500_19_999,3329
+Bishan,17_500_19_999,1558
+Bukit Batok,17_500_19_999,2097
+Bukit Merah,17_500_19_999,1994
+Bukit Panjang,17_500_19_999,1900
+Bukit Timah,17_500_19_999,1096
+Choa Chu Kang,17_500_19_999,2948
+Clementi,17_500_19_999,1333
+Downtown Core,17_500_19_999,70
+Geylang,17_500_19_999,1316
+Hougang,17_500_19_999,3114
+Jurong East,17_500_19_999,1007
+Jurong West,17_500_19_999,3024
+Kallang,17_500_19_999,1443
+Marine Parade,17_500_19_999,656
+Novena,17_500_19_999,706
+Outram,17_500_19_999,216
+Pasir Ris,17_500_19_999,2464
+Punggol,17_500_19_999,2833
+Queenstown,17_500_19_999,1535
+River Valley,17_500_19_999,197
+Sembawang,17_500_19_999,1537
+Sengkang,17_500_19_999,4007
+Serangoon,17_500_19_999,1816
+Tampines,17_500_19_999,3748
+Tanglin,17_500_19_999,400
+Toa Payoh,17_500_19_999,1548
+Woodlands,17_500_19_999,2687
+Yishun,17_500_19_999,2363
+Others,17_500_19_999,564
+Ang Mo Kio,20_000andOver,6532
+Bedok,20_000andOver,17168
+Bishan,20_000andOver,6896
+Bukit Batok,20_000andOver,7142
+Bukit Merah,20_000andOver,7794
+Bukit Panjang,20_000andOver,5416
+Bukit Timah,20_000andOver,11195
+Choa Chu Kang,20_000andOver,6588
+Clementi,20_000andOver,6045
+Downtown Core,20_000andOver,632
+Geylang,20_000andOver,4946
+Hougang,20_000andOver,9630
+Jurong East,20_000andOver,2614
+Jurong West,20_000andOver,6930
+Kallang,20_000andOver,5481
+Marine Parade,20_000andOver,4779
+Novena,20_000andOver,5021
+Outram,20_000andOver,868
+Pasir Ris,20_000andOver,7916
+Punggol,20_000andOver,6138
+Queenstown,20_000andOver,5516
+River Valley,20_000andOver,1860
+Sembawang,20_000andOver,2876
+Sengkang,20_000andOver,8815
+Serangoon,20_000andOver,8634
+Tampines,20_000andOver,9698
+Tanglin,20_000andOver,3977
+Toa Payoh,20_000andOver,6095
+Woodlands,20_000andOver,5064
+Yishun,20_000andOver,5515
+Others,20_000andOver,3691

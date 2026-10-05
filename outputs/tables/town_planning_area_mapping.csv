@@ -1,0 +1,27 @@
+hdb_town,population_planning_area,mapping_status,mapping_note
+ANG MO KIO,Ang Mo Kio,exact,Same name in Census planning-area list
+BEDOK,Bedok,exact,Same name in Census planning-area list
+BISHAN,Bishan,exact,Same name in Census planning-area list
+BUKIT BATOK,Bukit Batok,exact,Same name in Census planning-area list
+BUKIT MERAH,Bukit Merah,exact,Same name in Census planning-area list
+BUKIT PANJANG,Bukit Panjang,exact,Same name in Census planning-area list
+BUKIT TIMAH,Bukit Timah,exact,Same name in Census planning-area list
+CENTRAL AREA,,ambiguous,"HDB 'Central Area' is a town label for city-centre blocks spread across Downtown Core, Outram, Rochor, Museum, Singapore River etc. No single planning area; left unmapped on purpose."
+CHOA CHU KANG,Choa Chu Kang,exact,Same name in Census planning-area list
+CLEMENTI,Clementi,exact,Same name in Census planning-area list
+GEYLANG,Geylang,exact,Same name in Census planning-area list
+HOUGANG,Hougang,exact,Same name in Census planning-area list
+JURONG EAST,Jurong East,exact,Same name in Census planning-area list
+JURONG WEST,Jurong West,exact,Same name in Census planning-area list
+KALLANG/WHAMPOA,Kallang,manually_mapped,"HDB town combines Kallang and Whampoa estates. Census 2020 file has no Whampoa subzone and the estates (Bendemeer, Boon Keng, Whampoa, Geylang Bahru) sit mostly in Kallang PA; some blocks may fall in neighbouring Novena/Toa Payoh. Treated as approximate."
+MARINE PARADE,Marine Parade,exact,Same name in Census planning-area list
+PASIR RIS,Pasir Ris,exact,Same name in Census planning-area list
+PUNGGOL,Punggol,exact,Same name in Census planning-area list
+QUEENSTOWN,Queenstown,exact,Same name in Census planning-area list
+SEMBAWANG,Sembawang,exact,Same name in Census planning-area list
+SENGKANG,Sengkang,exact,Same name in Census planning-area list
+SERANGOON,Serangoon,exact,Same name in Census planning-area list
+TAMPINES,Tampines,exact,Same name in Census planning-area list
+TOA PAYOH,Toa Payoh,exact,Same name in Census planning-area list
+WOODLANDS,Woodlands,exact,Same name in Census planning-area list
+YISHUN,Yishun,exact,Same name in Census planning-area list

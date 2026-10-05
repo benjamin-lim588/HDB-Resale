@@ -1,0 +1,11 @@
+data/cache/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+outputs/figures/
+# large / rebuildable by src/run_pipeline.py (small processed tables stay tracked)
+data/processed/hdb_clean.csv
+data/processed/hdb_2020_enriched.csv
+# partial until geocoding completes; regenerate then
+data/processed/hdb_property_locations.csv
+data/processed/hdb_accessibility_features.csv
