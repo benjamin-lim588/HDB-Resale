@@ -1,1 +1,16 @@
-# HDB-Resale
+# FlatFair - HDB resale analytics (EDA and data cleaning stage)
+
+```
+data/raw/        original files (never modified): HDB resale CSV, Census 2020 population CSV, HDB AR 2025 PDF
+data/processed/  cleaned tables written by src/run_pipeline.py
+data/policy_events.csv   policy/cooling-measure timeline (rows with verified_in_repo=no must be checked before citing)
+src/             paths, data_cleaning, geography_mapping, feature_engineering, geographic_features, run_pipeline
+notebooks/       01_initial_data_inspection, 02_eda
+outputs/         figures/ and tables/ (cleaning rules, town-planning-area mapping, summaries)
+```
+
+Run: `python src/run_pipeline.py`, then run the notebooks top to bottom.
+
+**Still missing:** Census 2020 household income by planning area, MRT/LRT stations, bus stops
+(drop them in `data/raw/` using the filenames in `src/paths.py`; income and accessibility sections activate then).
+`price_per_sqm` is EDA-only (target leakage). Census variables are static 2020 context.
