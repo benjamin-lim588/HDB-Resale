@@ -12,8 +12,9 @@ Node build tool, or internet connection are needed to run the dashboard. Plotly.
 is vendored locally in `vendor/plotly.min.js` (v2.35.2, MIT license).
 
 Optional verification after preparation (Node 22+, no npm install required):
-`node --test frontend/tests/dashboard.test.mjs`. The tests verify exact medians,
-all filters, partial-month exclusion, empty/error states and chart update calls
+`node --test frontend/tests/*.test.mjs`. The tests verify exact medians,
+all filters, cross-filter clicks, chips, comparison limits, legends, metric toggles,
+partial-month exclusion, empty/error states and chart update calls
 against the current supplied dataset. They do not replace browser visual testing.
 
 Re-run preparation whenever Ryan regenerates `data/processed/hdb_clean.csv`, then
@@ -49,3 +50,26 @@ Assumptions:
   on the comparison card.
 - All pipeline rows, including flagged duplicates, remain included. No cleaning,
   modelling, estimation, forecasting, affordability or scraping is performed.
+
+Dashboard interactions:
+- **Town cross-filtering:** click a town bar to select only that town. All other
+  filters stay in place. The bar chart continues to show all towns under those
+  other filters, with the active towns highlighted, so another bar can be clicked.
+- **Town comparison:** All towns overview preserves the combined market view.
+  Choosing individual towns switches to separate trend lines for up to three
+  towns, with consistent colors across both trends and the highlighted town bars.
+  After three selections, additional town checkboxes are disabled until a town
+  is removed. KPIs and volume cover the combined selected transactions.
+- **Filter chips:** non-default categorical selections and the year range appear
+  above the charts. Removing a categorical chip removes that selected value;
+  removing the last chip for a dimension restores all its values. Removing a year
+  chip restores the full year range. Clear selections get a removable empty-state
+  chip. Reset all and the sidebar Reset restore every filter.
+- **Primary metric:** switch between median resale price and price per sqm without
+  changing selections. Reset controls reset filters and retain the metric choice.
+- **Hover details:** monthly points expose month, town/selection, both exact
+  medians and transaction count. Town bars expose both medians and count.
+
+Event tests use small DOM/Plotly test doubles to exercise the real application
+handlers, including listener cleanup and empty-state recovery. Browser visual
+layout and console verification require a connected browser.

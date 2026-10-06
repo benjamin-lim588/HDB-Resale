@@ -36,12 +36,20 @@
       <article class="kpi"><p>Number of Towns</p><strong id="kpi-towns">—</strong><span>Represented in your selection</span></article>
     </section>
     <div class="chart-section-heading"><h2>Market trends</h2><span>Monthly transaction insights</span></div>
+    <div class="active-filter-row" aria-label="Active filters">
+      <div id="active-filters" class="active-filters"></div>
+      <button id="reset-all" class="reset-all" type="button" disabled>Reset all</button>
+    </div>
     <div id="partial-note" class="partial-note" hidden></div>
     <section class="chart-grid" aria-label="Market charts">
-      <article class="chart-card"><div class="card-heading"><div><h3>Median resale price trend</h3><p>The typical resale price, month by month</p></div><span class="chart-tag">SGD</span></div><div id="price-chart" class="chart" aria-label="Monthly median resale price"></div></article>
+      <article class="chart-card"><div class="card-heading"><div><h3 id="primary-title">Median resale price trend</h3><p id="primary-description">The typical resale price, month by month</p></div><span id="primary-unit" class="chart-tag">SGD</span></div>
+        <div class="metric-toggle" role="group" aria-label="Primary trend metric">
+          <button type="button" data-metric="medianPrice" aria-pressed="true" disabled>Median resale price</button>
+          <button type="button" data-metric="medianPsm" aria-pressed="false" disabled>Price per sqm</button>
+        </div><div id="price-chart" class="chart" aria-label="Monthly median resale price"></div></article>
       <article class="chart-card"><div class="card-heading"><div><h3>Median price per SQM</h3><p>A view of prices relative to floor area</p></div><span class="chart-tag">SGD / sqm</span></div><div id="psm-chart" class="chart" aria-label="Monthly median price per square metre"></div></article>
       <article class="chart-card"><div class="card-heading"><div><h3>Transaction volume</h3><p>How many flats changed hands each month</p></div><span class="chart-tag">Transactions</span></div><div id="volume-chart" class="chart" aria-label="Monthly transaction volume"></div></article>
-      <article class="chart-card"><div class="card-heading"><div><h3>Median price by town</h3><p>All towns · selected flat types, storeys and years</p></div><span class="chart-tag">SGD</span></div><div id="town-chart" class="chart town-chart" aria-label="Town median resale prices, highest first"></div></article>
+      <article class="chart-card"><div class="card-heading"><div><h3>Median price by town</h3><p>All towns · selected flat types, storeys and years</p><p class="chart-interaction-help">Click a bar to filter by town. Selected towns are highlighted.</p></div><span class="chart-tag">SGD</span></div><div id="town-chart" class="chart town-chart" aria-label="Town median resale prices, highest first"></div></article>
     </section>
     <footer class="page-footer"><span>FlatFair · Market Explorer</span><span>Historical transactions. Descriptive market insights.</span></footer>
   </main>

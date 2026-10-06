@@ -33,6 +33,25 @@ test('all four filters combine correctly and retain exact medians', async () => 
   assert.ok(result.monthly.every(m => m.month >= '2020-01-01' && m.month <= '2022-12-01'));
 });
 
+test('per-town monthly medians are exact, not medians of group medians', async () => {
+  const selected = ['TAMPINES', 'BISHAN', 'QUEENSTOWN'];
+  const result = await data.getDashboardData({...filters, towns: selected, years: [2021, 2022]});
+  assert.equal(result.townSeries.length, 3);
+  const median = values => {
+    values.sort((a, b) => a - b);
+    return values.length ? (values[Math.floor((values.length - 1) / 2)] + values[Math.floor(values.length / 2)]) / 2 : null;
+  };
+  for (const series of result.townSeries) {
+    const townIndex = raw.towns.indexOf(series.town);
+    const monthIndex = raw.months.indexOf('2021-01');
+    const ids = raw.columns[0].flatMap((m, i) => m === monthIndex && raw.columns[1][i] === townIndex ? [i] : []);
+    assert.deepEqual(series.monthly[0], {month: '2021-01-01', medianPrice: median(ids.map(i => raw.columns[4][i])), medianPsm: median(ids.map(i => raw.columns[5][i])), count: ids.length});
+  }
+  const comparison = result.towns.find(t => t.town === 'TAMPINES');
+  assert.ok(comparison.medianPsm > 0);
+  assert.equal(result.monthly.reduce((s, m) => s + m.count, 0), result.townSeries.reduce((s, t) => s + t.monthly.reduce((total, m) => total + m.count, 0), 0));
+});
+
 test('each categorical filter and the year range affect matching records', async () => {
   for (const changed of [{towns: ['ANG MO KIO']}, {flatTypes: ['3 ROOM']}, {storeys: ['01 TO 03']}, {years: [2026, 2026]}]) {
     const result = await data.getDashboardData({...filters, ...changed});
