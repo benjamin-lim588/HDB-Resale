@@ -80,6 +80,11 @@ export async function getDashboardData(filters) {
   const represented = new Set();
   const buckets = db.months.map(() => ({prices: [], psm: []}));
   const townPrices = db.towns.map(() => []);
+  const townPsms = db.towns.map(() => []);
+  const comparing = filters.towns.length > 0 && filters.towns.length <= 3;
+  const comparisonBuckets = new Map(comparing ? filters.towns.map(name => [
+    db.towns.indexOf(name), db.months.map(() => ({prices: [], psm: []})),
+  ]) : []);
   let count = 0, excludedCount = 0;
   for (let i = 0; i < db.count; i++) {
     if (!monthOK[month[i]] || !types[type[i]] || !storeys[storey[i]]) continue;
@@ -97,12 +102,19 @@ export async function getDashboardData(filters) {
     if (comparison[i]) townPrices[town[i]].push(price[i]);
     if (!matched[i]) continue;
     prices.push(price[i]);
-    if (db.months[month[i]] !== partialMonth) buckets[month[i]].prices.push(price[i]);
+    if (db.months[month[i]] !== partialMonth) {
+      buckets[month[i]].prices.push(price[i]);
+      comparisonBuckets.get(town[i])?.[month[i]].prices.push(price[i]);
+    }
   }
   for (const i of db.psmOrder) {
+    if (comparison[i]) townPsms[town[i]].push(psm[i]);
     if (!matched[i]) continue;
     psms.push(psm[i]);
-    if (db.months[month[i]] !== partialMonth) buckets[month[i]].psm.push(psm[i]);
+    if (db.months[month[i]] !== partialMonth) {
+      buckets[month[i]].psm.push(psm[i]);
+      comparisonBuckets.get(town[i])?.[month[i]].psm.push(psm[i]);
+    }
   }
   const activeMonths = db.months.filter((m, i) => monthOK[i] && m !== partialMonth);
   const monthly = [];
@@ -122,7 +134,17 @@ export async function getDashboardData(filters) {
   lastResult = {
     kpis: {medianPrice: median(prices), medianPsm: median(psms), count, towns: represented.size},
     monthly, partialMonth, excludedCount,
-    towns: db.towns.map((name, i) => ({town: name, medianPrice: median(townPrices[i]), count: townPrices[i].length}))
+    selectedTowns: [...filters.towns],
+    isTownOverview: filters.towns.length === db.towns.length,
+    townSeries: comparing ? filters.towns.map(name => {
+      const perTown = comparisonBuckets.get(db.towns.indexOf(name));
+      return {town: name, monthly: monthly.map(m => {
+        const i = db.months.indexOf(m.month.slice(0, 7));
+        const bucket = perTown?.[i] ?? {prices: [], psm: []};
+        return {month: m.month, medianPrice: median(bucket.prices), medianPsm: median(bucket.psm), count: bucket.prices.length};
+      })};
+    }) : [],
+    towns: db.towns.map((name, i) => ({town: name, medianPrice: median(townPrices[i]), medianPsm: median(townPsms[i]), count: townPrices[i].length}))
       .filter(t => t.count).sort((a, b) => b.medianPrice - a.medianPrice || a.town.localeCompare(b.town)),
   };
   return lastResult;
