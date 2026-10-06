@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153e38">
+  <title>FlatFair · Fair Value Check</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fair-value.css">
+  <script defer src="vendor/plotly.min.js"></script>
+  <script type="module" src="js/fair-value-app.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-icon" aria-hidden="true">F</span> FlatFair<span class="brand-dot">.</span></a>
+    <div class="workspace-label">HOUSING INTELLIGENCE</div>
+    <nav class="fair-navigation" aria-label="Main navigation">
+      <a class="nav-link" href="index.html">Market Explorer</a>
+      <a class="nav-current" href="fair-value.html" aria-current="page">Fair Value Check</a>
+    </nav>
+    <h2 class="fair-sidebar-heading">Compare with past sales</h2>
+    <p class="filter-help">Enter a flat’s details to find similar HDB resale transactions in its block, street or town.</p>
+    <div class="sidebar-footer"><span class="status-dot"></span> Historical comparable sales<p>A transparent prototype benchmark</p></div>
+  </aside>
+  <main>
+    <header class="page-header"><div><p class="eyebrow">SINGAPORE / COMPARABLE SALES</p><h1>Fair Value Check</h1><p class="subtitle">See how an asking price compares with similar flats that have sold.</p></div><span class="phase-badge">Comparable-sales prototype</span></header>
+    <div class="dataset-line"><span id="comparable-coverage">Loading historical transactions…</span><span class="currency-label">All prices in SGD</span></div>
+    <div id="fair-status" class="status-message" role="status" aria-live="polite">Loading local comparable data…</div>
+    <section class="chart-card property-card" aria-labelledby="property-heading">
+      <div class="card-heading"><div><h2 id="property-heading">Your flat</h2><p>Use the remaining lease today. Storey ranges are represented by their midpoint.</p></div><span class="chart-tag">Manual entry</span></div>
+      <form id="property-form" novalidate>
+        <fieldset id="property-fields" disabled>
+          <legend class="visually-hidden">Property details</legend>
+          <div class="property-grid">
+            <div class="property-field"><label for="property-town">Town</label><select id="property-town" required><option value="">Choose town</option></select><span id="error-town" class="field-error"></span></div>
+            <div class="property-field"><label for="property-street">Street</label><select id="property-street" required disabled><option value="">Choose town first</option></select><span id="error-street" class="field-error"></span></div>
+            <div class="property-field"><label for="property-block">Block</label><select id="property-block" required disabled><option value="">Choose street first</option></select><span id="error-block" class="field-error"></span></div>
+            <div class="property-field"><label for="property-type">Flat Type</label><select id="property-type" required><option value="">Choose flat type</option></select><span id="error-flatType" class="field-error"></span></div>
+            <div class="property-field"><label for="property-area">Floor Area (sqm)</label><input id="property-area" type="number" inputmode="decimal" min="10" max="500" step="0.1" placeholder="e.g. 93" required><span id="error-floorArea" class="field-error"></span></div>
+            <div class="property-field"><label for="property-storey">Storey Range</label><select id="property-storey" required><option value="">Choose storey range</option></select><span id="error-storey" class="field-error"></span></div>
+            <div class="property-field lease-field"><label for="lease-years">Remaining Lease</label><div class="lease-inputs"><div><input id="lease-years" type="number" inputmode="numeric" min="0" max="99" step="1" placeholder="e.g. 65" required aria-label="Remaining lease years"><span>years</span></div><div><input id="lease-months" type="number" inputmode="numeric" min="0" max="11" step="1" value="0" required aria-label="Remaining lease extra months"><span>months</span></div></div><span id="error-remainingLeaseMonths" class="field-error"></span></div>
+            <div class="property-field"><label for="property-asking">Asking Price (SGD)</label><input id="property-asking" type="number" inputmode="decimal" min="1" max="100000000" step="1" placeholder="e.g. 650000" required><span id="error-askingPrice" class="field-error"></span></div>
+            <div class="property-field"><label for="property-model">Flat Model <span class="optional-label">(optional)</span></label><select id="property-model"><option value="">No preference</option></select></div>
+          </div>
+          <div class="property-actions"><button id="check-value" class="primary-button" type="submit">Check comparables</button><button id="clear-property" class="secondary-button" type="reset">Clear</button><span>Asking price does not influence which sales are selected.</span></div>
+        </fieldset>
+      </form>
+    </section>
+    <section id="fair-results" hidden aria-labelledby="result-heading" aria-live="polite">
+      <div class="chart-section-heading"><h2 id="result-heading">Comparable market check</h2><span id="result-property"></span></div>
+      <div class="kpi-grid value-grid">
+        <article class="kpi"><p>Asking price</p><strong id="result-asking">—</strong><span>Your entered price</span></article>
+        <article class="kpi"><p>Comparable-implied value</p><strong id="result-implied">—</strong><span id="result-psm">Median comparable price per sqm × target area</span></article>
+        <article class="kpi"><p>Difference</p><strong id="result-premium">—</strong><span id="result-assessment"></span></article>
+        <article class="kpi"><p>ML fair value</p><strong id="result-model">Unavailable</strong><span>Model integration is not available in this prototype.</span></article>
+      </div>
+      <div class="comparable-summary"><div><span>Comparable range</span><strong id="result-range">—</strong><small>Selected min/max price per sqm × target area</small></div><div><span>Median transaction price</span><strong id="result-median-price">—</strong><small>Actual prices of selected transactions</small></div><div><span>Comparables used</span><strong id="result-count">—</strong><small id="result-tier"></small></div><div><span>Comparable quality</span><strong id="result-confidence">—</strong><small id="result-quality"></small></div></div>
+      <p id="result-note" class="fair-note"></p>
+      <article id="comparison-chart-card" class="chart-card"><div class="card-heading"><div><h3>Selected sales and your asking price</h3><p>Actual transaction prices are shown alongside values for your target flat. Floor areas can differ.</p></div><span class="chart-tag">SGD</span></div><div id="comparable-price-chart" class="chart" aria-label="Comparable transaction prices, comparable-implied value and asking price"></div></article>
+      <article class="chart-card comparable-table-card"><div class="card-heading"><div><h3>Selected comparable transactions</h3><p id="table-note">Ranked by location tier, then similarity within each tier.</p></div></div><div class="table-scroll" tabindex="0" role="region" aria-label="Comparable sales table"><table><caption class="visually-hidden">Transactions used for the comparable-implied value</caption><thead><tr><th scope="col">Block / Street</th><th scope="col">Transaction month</th><th scope="col">Flat type / Model</th><th scope="col">Area (sqm)</th><th scope="col">Storey</th><th scope="col">Lease at sale</th><th scope="col">Resale price</th><th scope="col">Price / sqm</th><th scope="col">Tier</th></tr></thead><tbody id="comparable-rows"></tbody></table></div></article>
+    </section>
+    <details class="matching-details chart-card"><summary>How comparable matching works</summary><div id="matching-methodology"></div><p>This prototype uses historical sales without a time adjustment to prices. It is a descriptive benchmark, not an official appraisal. The comparable range is a spread of selected sales scaled to your area, not a confidence interval.</p></details>
+    <footer class="page-footer"><span>FlatFair · Fair Value Check</span><span>Historical transactions. Comparable-sales prototype.</span></footer>
+  </main>
+</body>
+</html>
