@@ -1,0 +1,25 @@
+resources:
+  jobs:
+    flatfair_valuation:
+      name: flatfair-valuation
+      description: Fair-value estimator (baseline/hedonic/RF/XGBoost) and comparables engine evaluation, tracked in MLflow
+      environments:
+        - environment_key: ml
+          spec:
+            environment_version: "3"
+            dependencies:
+              - scikit-learn==1.9.1
+              - xgboost==3.2.0
+              - matplotlib
+              - mlflow>=3.0
+      tasks:
+        - task_key: fair_value
+          environment_key: ml
+          spark_python_task:
+            python_file: ../jobs/07_fair_value.py
+            parameters: ["--catalog", "${var.catalog}", "--experiment", "/Users/${workspace.current_user.userName}/flatfair-fair-value"]
+        - task_key: comparables_eval
+          environment_key: ml
+          spark_python_task:
+            python_file: ../jobs/08_comparables_eval.py
+            parameters: ["--catalog", "${var.catalog}", "--experiment", "/Users/${workspace.current_user.userName}/flatfair-comparables"]

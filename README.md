@@ -44,3 +44,7 @@ python -m http.server 8000 --bind 127.0.0.1 --directory frontend
 Open http://127.0.0.1:8000. See [frontend/README.md](frontend/README.md) for data
 preparation, filter behavior, verification and the future API boundary.
 
+
+## Valuation (fair value + comparables)
+Fair-value estimator (XGBoost champion), comparables engine ("Comparable market reference") and the market forecast are three separate
+components. See `docs/fair_value_and_comparables.md`; interface in `src/valuation_api.py`; run: `databricks bundle run flatfair_valuation`.

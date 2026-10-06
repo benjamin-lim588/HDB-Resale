@@ -115,7 +115,7 @@ All thresholds and weights are in `js/comparable-matching.js` (`MATCHING`):
   No comparables yields Unavailable. This is a rule about evidence, not model
   prediction confidence or a statistical interval.
 
-`Comparable-implied value = median(selected price_per_sqm) × target floor area`.
+`Comparable market reference = median(selected price_per_sqm) × target floor area`.
 Median transaction price is computed separately from actual selected prices.
 Range uses the selected minimum/maximum price per sqm scaled to target area.
 Difference is asking price minus implied value; premium/discount is

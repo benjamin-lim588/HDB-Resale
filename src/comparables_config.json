@@ -1,0 +1,45 @@
+{
+  "name": "FlatFair comparables v1",
+  "reference_label": "Comparable market reference",
+  "k": 5,
+  "engine": {
+    "kind": "hedonic",
+    "limits": "loose",
+    "recency_per_month": 0.005,
+    "use_access": false,
+    "scales": {
+      "log_area": 0.06562177301829702,
+      "storey": 5.522953715469922,
+      "lease_months": 130.8731349344997,
+      "log_mrt": 0.7243100435678682
+    },
+    "hedonic": {
+      "log_area": 0.6343138047959547,
+      "storey": 0.009359607256105986,
+      "storey_sq": -9.339420972364891e-05,
+      "lease_years": -0.0011325350146428547,
+      "lease_years_sq": 5.700508951997491e-05,
+      "model_penalty": 0.04801962076419848,
+      "log_mrt": 0.0
+    }
+  },
+  "windows_months": [
+    12,
+    18,
+    24
+  ],
+  "min_candidates": 10,
+  "min_comparables": 3,
+  "limits": {
+    "area": 0.3,
+    "storey": 10.0,
+    "lease_months": 240.0
+  },
+  "quality": {
+    "k": 5,
+    "high_min_candidates": 20,
+    "high_max_dist": 0.020960635712086458,
+    "medium_max_dist": 0.035650191380660924
+  },
+  "notes": "same town + flat_type; sales strictly before the valuation month; exact duplicates removed; window 12->18->24 months (first with >= min_candidates); flat_model is a similarity penalty, not a filter; remaining lease is normalised to the valuation date; price is never used for matching"
+}

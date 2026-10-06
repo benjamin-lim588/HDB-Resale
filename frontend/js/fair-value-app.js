@@ -112,8 +112,8 @@ export async function renderComparableChart(analysis, property) {
       marker: {color: comps.map(c => ['#176b58', '#5b7cbb', '#bd8542'][c.tier]), size: 9},
       customdata: comps.map(c => [c.block, c.street, c.date.slice(0, 7), c.floorArea, c.pricePerSqm, c.tierLabel]),
       hovertemplate: 'Block %{customdata[0]} · %{customdata[1]}<br>%{customdata[2]}<br>S$%{x:,.0f}<br>%{customdata[3]} sqm · S$%{customdata[4]:,.0f} / sqm<br>%{customdata[5]}<extra></extra>'},
-    {type: 'scatter', mode: 'lines', name: 'Comparable-implied value', x: [analysis.impliedValue, analysis.impliedValue], y: extent,
-      line: {color: '#176b58', width: 2, dash: 'dash'}, hovertemplate: 'Comparable-implied value: S$%{x:,.0f}<extra></extra>'},
+    {type: 'scatter', mode: 'lines', name: 'Comparable market reference', x: [analysis.impliedValue, analysis.impliedValue], y: extent,
+      line: {color: '#176b58', width: 2, dash: 'dash'}, hovertemplate: 'Comparable market reference: S$%{x:,.0f}<extra></extra>'},
     {type: 'scatter', mode: 'lines', name: 'Asking price', x: [property.askingPrice, property.askingPrice], y: extent,
       line: {color: '#bd8542', width: 2}, hovertemplate: 'Asking price: S$%{x:,.0f}<extra></extra>'},
   ], {paper_bgcolor: '#fff', plot_bgcolor: '#fff', font: {family: 'Inter, Segoe UI, Arial, sans-serif', color: '#74817a', size: 10},
@@ -153,7 +153,7 @@ function methodology() {
     `Require area within ±${MATCHING.maxAreaFraction * 100}%, storey midpoint within ±${MATCHING.maxStoreyDifference} floors, and estimated remaining lease today within ±${MATCHING.maxLeaseDifferenceMonths / 12} years. Sale-time lease is reduced by elapsed calendar months for matching.`,
     `Within each tier, lower weighted differences rank first: area ${MATCHING.weights.area * 100}%, storey ${MATCHING.weights.storey * 100}%, lease ${MATCHING.weights.lease * 100}%, recency ${MATCHING.weights.recency * 100}%, optional flat-model mismatch ${MATCHING.weights.model * 100}%. Differences are normalized by the matching limits.`,
     `Quality is High with at least ${MATCHING.highRecentNearby} block/street sales from the last ${MATCHING.recentMonths} months; Medium with at least ${MATCHING.minComparables} sales including ${MATCHING.mediumNearby} block/street sales; otherwise Low. This describes comparable evidence, not prediction accuracy.`,
-    'Comparable-implied value = median selected price per sqm × your floor area. Range = selected min/max price per sqm × your floor area. Premium/discount = (asking price / comparable-implied value − 1) × 100%. Asking price is excluded from matching.',
+    'Comparable market reference = median selected price per sqm × your floor area. Range = selected min/max price per sqm × your floor area. Premium/discount = (asking price / comparable market reference − 1) × 100%. Asking price is excluded from matching.',
     `${number(options.duplicatesExcluded ?? 0)} identical exported rows excluded to avoid double-counting indistinguishable records. The source CSV is unchanged.`,
   ];
   const list = document.createElement('ul');
