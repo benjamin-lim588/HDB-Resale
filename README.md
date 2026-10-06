@@ -25,3 +25,7 @@ Same code, two runners. `src/run_pipeline.py` holds `clean_stage` / `features_st
 - Source files live in the managed volume `<catalog>.raw.landing`. Geocoding is NOT part of the job: the completed
   OneMap cache is uploaded as an input (`onemap_geocode_cache.csv`); refresh it locally with `src/run_geocoding.py`,
   then re-upload it and rerun the job.
+
+## Forecasting
+Town x flat_type price forecasts (1/3/6 months). Production method = pooled 3-month median; ML models are tracked
+challengers. See `docs/forecasting.md` (method, backtest, regime-change finding). Run: `databricks bundle run flatfair_forecasting`.

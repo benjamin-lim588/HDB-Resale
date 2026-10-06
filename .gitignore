@@ -11,3 +11,4 @@ data/processed/hdb_property_locations.csv
 data/processed/hdb_accessibility_features.csv
 .databricks/
 .bundle/
+.venv/
