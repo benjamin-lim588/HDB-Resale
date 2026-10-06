@@ -73,3 +73,70 @@ Dashboard interactions:
 Event tests use small DOM/Plotly test doubles to exercise the real application
 handlers, including listener cleanup and empty-state recovery. Browser visual
 layout and console verification require a connected browser.
+
+## Fair Value Check — comparable-sales prototype
+
+On `ben/fair-value-comparables`, prepare both independent frontend exports and serve:
+
+```powershell
+python frontend/prepare_data.py
+python frontend/prepare_comparables_data.py
+python -m http.server 8000 --bind 127.0.0.1 --directory frontend
+```
+
+Open `http://127.0.0.1:8000/fair-value.html`, or use the Market Explorer navigation
+link. The new page reuses the existing stylesheet and local Plotly library. No
+`src/`, `jobs/`, forecasting or affordability files are changed by this feature.
+
+The 12-field export `data/comparables.json` contains dictionary-encoded date,
+town, street, block, flat type, model and storey range, plus area, remaining lease
+months, storey midpoint, price and price per sqm. It is ignored by Git and must be
+regenerated after the cleaned source changes. Identical exported records are
+deduplicated locally to avoid counting indistinguishable transactions twice;
+no source rows are changed. Dates retain the source's registration-month
+granularity; a first-of-month date does not identify the actual sale day.
+
+All thresholds and weights are in `js/comparable-matching.js` (`MATCHING`):
+
+- Same town and flat type are required; use only non-future sales within 36
+  calendar months of the analysis date (today in Singapore).
+- Candidates must be within 20% of the target area, 6 floors of the target storey
+  midpoint, and 120 months of the target remaining lease. For lease matching,
+  subtract elapsed calendar months from each sale's lease. The table preserves
+  lease at sale and separately labels estimated remaining lease today.
+- Prefer same block **and street**, then other blocks on the same street, then
+  other streets in the same town. Widen only while fewer than 5 eligible sales
+  have been selected. Within each visited tier take up to the remaining capacity
+  of 10 sales, ranked by normalized weighted differences: area 25%, storey 15%,
+  lease 20%, recency 35%, optional model mismatch 5%. Ties use newer date,
+  street, block, then export row ID. Matching never reads asking price.
+- Quality is High with at least 5 recent (≤12 months) block/street sales; Medium
+  with at least 5 sales including at least 3 block/street sales; otherwise Low.
+  No comparables yields Unavailable. This is a rule about evidence, not model
+  prediction confidence or a statistical interval.
+
+`Comparable-implied value = median(selected price_per_sqm) × target floor area`.
+Median transaction price is computed separately from actual selected prices.
+Range uses the selected minimum/maximum price per sqm scaled to target area.
+Difference is asking price minus implied value; premium/discount is
+`(asking price / implied value − 1) × 100%`. Neutral above/within/below labels
+compare asking price with that range. Prices are not time-adjusted, and the page
+does not claim an appraisal. The chart shows actual transaction prices and
+clearly labels the separate target-area benchmark and asking price.
+
+`getComparableAnalysis(property)` is the presentation-facing provider boundary.
+`getModelFairValue(property)` currently returns `null`; ML fair value is displayed
+as Unavailable. No ML, external listings, scraping or Databricks are implemented.
+
+Verification from the repository root:
+
+```powershell
+node --test frontend/tests/*.test.mjs
+python -m unittest discover -s frontend/tests -p "test_*.py"
+```
+
+The new tests cover matching tiers, type/location requirements, similarity,
+recency/threshold boundaries, asking-price independence, value and range math,
+confidence, missing data, form validation, dependent dropdowns, empty-result
+recovery, Plotly calls and unchanged source files. Event tests use DOM/Plotly
+test doubles; visual layout and browser console checks need a connected browser.
