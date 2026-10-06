@@ -1,0 +1,35 @@
+resources:
+  jobs:
+    flatfair_forecasting:
+      name: flatfair-forecasting
+      description: features.hdb_transactions -> monthly series -> backtest (MLflow) + production price_forecasts
+      environments:
+        - environment_key: default
+          spec:
+            environment_version: "3"
+        - environment_key: ml
+          spec:
+            environment_version: "3"
+            dependencies:
+              - scikit-learn==1.9.1
+              - xgboost==3.2.0
+              - matplotlib
+              - mlflow>=3.0
+      tasks:
+        - task_key: monthly_series
+          environment_key: default
+          spark_python_task:
+            python_file: ../jobs/04_monthly_series.py
+            parameters: ["--catalog", "${var.catalog}"]
+        - task_key: backtest
+          depends_on: [{task_key: monthly_series}]
+          environment_key: ml
+          spark_python_task:
+            python_file: ../jobs/05_backtest.py
+            parameters: ["--catalog", "${var.catalog}", "--experiment", "/Users/${workspace.current_user.userName}/flatfair-price-forecasting"]
+        - task_key: price_forecasts
+          depends_on: [{task_key: monthly_series}]
+          environment_key: default
+          spark_python_task:
+            python_file: ../jobs/06_price_forecasts.py
+            parameters: ["--catalog", "${var.catalog}"]
